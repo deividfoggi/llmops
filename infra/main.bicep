@@ -106,7 +106,7 @@ module appServicePlan './core/host/appserviceplan.bicep' =  if (_deployAppServic
     location: location
     tags: _tags
     sku: {
-      name: 'P0v3'
+      name: 'P1v3'
       capacity: 1
     }
     kind: 'linux'
