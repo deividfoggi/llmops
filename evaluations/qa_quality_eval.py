@@ -7,6 +7,7 @@ from promptflow.client import PFClient
 from promptflow.core import AzureOpenAIModelConfiguration
 from promptflow.evals.evaluate import evaluate
 from promptflow.evals.evaluators import RelevanceEvaluator, FluencyEvaluator, GroundednessEvaluator, CoherenceEvaluator
+from evaluations.token_usage import TokenTrackingEvaluator
 
 class TokenTrackingEvaluator:
     def __init__(self, evaluator):
@@ -79,13 +80,15 @@ def main():
         "subscription_id": os.getenv("AZURE_SUBSCRIPTION_ID"),
         "resource_group_name": os.getenv("AZURE_RESOURCE_GROUP"),
         "project_name": os.getenv("AZUREAI_PROJECT_NAME"),
-    }    
+    }
+
+    token_evaluator = TokenTrackingEvaluator()
 
     # https://learn.microsoft.com/en-us/azure/ai-studio/how-to/develop/flow-evaluate-sdk
-    fluency_evaluator = TokenTrackingEvaluator(FluencyEvaluator(model_config=model_config))
-    groundedness_evaluator = TokenTrackingEvaluator(GroundednessEvaluator(model_config=model_config))
-    relevance_evaluator = TokenTrackingEvaluator(RelevanceEvaluator(model_config=model_config))
-    coherence_evaluator = TokenTrackingEvaluator(CoherenceEvaluator(model_config=model_config))
+    fluency_evaluator = token_evaluator(FluencyEvaluator(model_config=model_config))
+    groundedness_evaluator = token_evaluator(GroundednessEvaluator(model_config=model_config))
+    relevance_evaluator = token_evaluator(RelevanceEvaluator(model_config=model_config))
+    coherence_evaluator = token_evaluator(CoherenceEvaluator(model_config=model_config))
 
     data = "./responses.jsonl"  # path to the data file
 
