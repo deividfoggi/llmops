@@ -25,4 +25,4 @@ inputs:
   skills:
     type: list
     is_chat_input: false
-entry: essay_request:app
+entry: essay_request:essay
