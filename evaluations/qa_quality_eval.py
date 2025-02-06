@@ -1,6 +1,7 @@
 import os
 import json
 from datetime import datetime
+#from dotenv import load_dotenv
 
 from azure.identity import DefaultAzureCredential
 from promptflow.client import PFClient
@@ -9,6 +10,8 @@ from promptflow.evals.evaluate import evaluate
 from promptflow.evals.evaluators import RelevanceEvaluator, FluencyEvaluator, GroundednessEvaluator, CoherenceEvaluator
 
 def main():
+
+    #load_dotenv()
 
     # Read environment variables
     azure_location = os.getenv("AZURE_LOCATION")
@@ -41,6 +44,8 @@ def main():
         },
         stream=True,
     )
+
+    print(base_run.properties["system_metrics"])
     
     responses = pf.get_details(base_run)
     print(responses.head(10))
@@ -106,12 +111,6 @@ def main():
             },
             output_path="./qa_flow_quality_eval.json"
         )        
-
-    # Print token usage
-    print("Fluency Evaluator Tokens:", fluency_evaluator.total_tokens)
-    print("Groundedness Evaluator Tokens:", groundedness_evaluator.total_tokens)
-    print("Relevance Evaluator Tokens:", relevance_evaluator.total_tokens)
-    print("Coherence Evaluator Tokens:", coherence_evaluator.total_tokens)
 
 if __name__ == '__main__':
     import promptflow as pf
