@@ -38,6 +38,7 @@ def main():
         stream=True,
     )
 
+    # https://github.com/microsoft/promptflow/discussions/3352
     print("SYSTEM_METRICS: " + json.dumps(eval_run.properties["system_metrics"], indent=2))
 
     details = pf.get_details(eval_run)
