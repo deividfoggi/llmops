@@ -1,6 +1,28 @@
 inputs:
-  question:
+  language:
     type: string
-  chat_history:
-    type: object
-entry: chat_request:get_response
+    is_chat_input: false
+  genre:
+    type: string
+    default: ""
+    is_chat_input: false
+  statement:
+    type: string
+    default: ""
+    is_chat_input: false
+  title:
+    type: string
+    default: ""
+    is_chat_input: false
+  essay:
+    type: string
+    default: ""
+    is_chat_input: false
+  support_text:
+    type: string
+    default: ""
+    is_chat_input: false
+  skills:
+    type: list
+    is_chat_input: false
+entry: essay_request:app
