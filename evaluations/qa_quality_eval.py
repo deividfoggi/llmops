@@ -7,7 +7,6 @@ from promptflow.client import PFClient
 from promptflow.core import AzureOpenAIModelConfiguration
 from promptflow.evals.evaluate import evaluate
 from promptflow.evals.evaluators import RelevanceEvaluator, FluencyEvaluator, GroundednessEvaluator, CoherenceEvaluator
-from evaluations.token_usage import TokenTrackingEvaluator
 
 def main():
 
