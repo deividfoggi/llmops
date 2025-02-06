@@ -1,4 +1,8 @@
 from promptflow.client import PFClient
+import os
+import json
+from dotenv import load_dotenv
+load_dotenv()
 
 def main():
 
@@ -33,6 +37,8 @@ def main():
         },
         stream=True,
     )
+
+    print("SYSTEM_METRICS: " + json.dumps(eval_run.properties["system_metrics"], indent=2))
 
     details = pf.get_details(eval_run)
 
