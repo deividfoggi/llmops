@@ -7,16 +7,21 @@ load_dotenv()
 def main():
 
     pf = PFClient()
-    flow = "./src/chat.prompty"  # path to the prompty file
-    data = "./evaluations/test-dataset.jsonl"  # path to the data file
+    flow = "./src/essay.prompty"  # path to the prompty file
+    data = "./evaluations/essay-test-dataset.jsonl"  # path to the data file
 
     # base run
     base_run = pf.run(
         flow=flow,
         data=data,
         column_mapping={
-            "question": "${data.question}",
-            "documents": "${data.documents}"
+            "language": "${data.language}",
+            "genre": "${data.genre}",
+            "statement": "${data.statement}",
+            "title": "${data.title}",
+            "essay": "${data.essay}",
+            "support_text": "${data.support_text}",
+            "skills": "${data.skills}"
         },
         stream=True,
     )
