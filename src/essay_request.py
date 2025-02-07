@@ -31,7 +31,7 @@ def get_response(essay_eval_request):
 
     print("result: ", result)
 
-    return {"essay_evaluation_result": result}
+    return result
 
 # create an api to receive a post using flask
 
