@@ -9,7 +9,7 @@ model:
     type: azure_openai
     azure_deployment: gpt-4
   parameters:
-    max_tokens: 128
+    max_tokens: 4096
     temperature: 0.2
 inputs:
   language:
