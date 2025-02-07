@@ -41,7 +41,7 @@ app = Flask(__name__)
 def essay():
     essay_eval_request = request.get_json()
     response = get_response(essay_eval_request)
-    return jsonify(response)
+    return response
 
 if __name__ == "__main__":
     app.run(port=8080, debug=True)
