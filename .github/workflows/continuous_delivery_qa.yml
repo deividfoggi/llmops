@@ -307,7 +307,7 @@ jobs:
         if: steps.check_image.outputs.IMAGE_EXISTS == 'false'      
         uses: actions/setup-python@v5
         with:
-          python-version: 3.8
+          python-version: 3.11
 
       - name: Install Promptflow CLI
         if: steps.check_image.outputs.IMAGE_EXISTS == 'false'
