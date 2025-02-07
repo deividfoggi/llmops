@@ -38,6 +38,8 @@ inputs:
   skills:
     type: list
     is_chat_input: false
+output
+  type: json: 
 sample: essay.json
 ---
 system:
