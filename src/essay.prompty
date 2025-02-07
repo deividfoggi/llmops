@@ -38,8 +38,11 @@ inputs:
   skills:
     type: list
     is_chat_input: false
-output
-  type: json: 
+outputs:
+  result:
+    type: string
+    is_chat_output: false
+    description: The evaluation of the essay
 sample: essay.json
 ---
 system:
