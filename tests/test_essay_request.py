@@ -13,7 +13,7 @@ class EssayRequestTestCase(unittest.TestCase):
     @patch('essay_request.AzureOpenAIModelConfiguration')
     def test_get_response(self, mock_azure_config, mock_prompty_load):
         mock_prompty_instance = MagicMock()
-        mock_prompty_instance.return_value = "mocked_result"
+        mock_prompty_instance.return_value = {"essay_evaluation_result": "mocked_result"}
         mock_prompty_load.return_value = mock_prompty_instance
 
         file_path = os.path.join(os.path.dirname(__file__), 'essay.sample.json')
