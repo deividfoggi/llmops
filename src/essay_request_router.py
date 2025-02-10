@@ -8,7 +8,7 @@ from promptflow.tools.common import init_azure_openai_client
 from promptflow.connections import AzureOpenAIConnection
 from promptflow.core import (AzureOpenAIModelConfiguration, Prompty, tool)
 from flask import Flask, request, jsonify
-from OLD_ESSAY.old_essay import get_response_old_essay
+from OLD_ESSAY.old_essay import OldEssay
 from POEMA_FALADO.POEMA_FALADO_1EM_prompt_flow import get_response_poema_falado
 
 @tool
@@ -35,8 +35,9 @@ def get_response(essay_request):
     if essay_type == 'poema_falado':
         result = get_response_poema_falado(essay_request,model_config)
     elif essay_type == 'old_essay':
-        result = get_response_old_essay(essay_request, model_config)
-
+        #result = get_response_old_essay(essay_request, model_config)
+        old_essay = OldEssay(model_config)
+        result = old_essay(essay_request)
 
     return result
 
