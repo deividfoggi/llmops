@@ -35,7 +35,7 @@ def get_response(essay_request):
     if essay_type == 'poema_falado':
         result = get_response_poema_falado(essay_request,model_config)
     elif essay_type == 'old_essay':
-        #result = get_response_old_essay(essay_request, model_config)
+        #calling using class based flow
         old_essay = OldEssay(model_config)
         result = old_essay(essay_request)
 

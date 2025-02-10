@@ -2,6 +2,7 @@ import os
 from promptflow.core import Prompty
 from promptflow.core import AzureOpenAIModelConfiguration
 
+# class based flow: https://microsoft.github.io/promptflow/how-to-guides/develop-a-flex-flow/class-based-flow.html
 class OldEssay:
     def __init__(self, model_config: AzureOpenAIModelConfiguration):
         self.current_dir = os.path.dirname(os.path.abspath(__file__))
