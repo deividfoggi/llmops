@@ -2,7 +2,7 @@ import os
 import unittest
 from unittest.mock import patch, MagicMock
 from flask import Flask, json
-from essay_request import app, get_response
+from essay_request_router import app, get_response
 
 class EssayRequestTestCase(unittest.TestCase):
     def setUp(self):
