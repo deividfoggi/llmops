@@ -1,0 +1,922 @@
+[
+    [
+        {
+            "titulo": "Do Chão Que Eu Piso e Das Asas Que Eu Voo",
+            "texto": "Eu falo do lugar que me fez\nterra vermelha e poeira no ar\nde onde eu vi tudo nascer\nas mão rachada da minha vó\no cheiro forte da comida no fogão\ne os sonho que dormia na rede\nSou desse chão que suja o pé\nmas às vez me faz tropeçar\n\nMinha voz vem do bairro estreito\nonde o quintal era apertado, mas a fé era grande\nAqui a gente aprende tropeçando\nque cair faz parte\nmas nem sempre dá pra levantar\nMinha identidade é feita disso tudo\ndo barro que gruda na pele\ne das asa que tenta voar\nmesmo quebrada\n\nPertencer? Às vez nem sei se pertenço\nParece que vivo fora do campo\nque minha história nem encaixa\nMas é desse lugar que eu tiro coragem\npra tentar fazer minha marca\nMesmo sem ser totalmente minha\na quebrada é onde eu cresci\n\nSe perguntarem de onde eu venho\neu respondo: é do meio da luta\nonde cada passo que eu dou\né um chute contra o vento\nEu sou o que tento ser\ne o lugar de onde eu falo é o meu palco",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 0,
+                        "criterio": "Anulação",
+                        "nota": "NÃO",
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "O texto aborda diretamente o tema 'O lugar de onde eu falo', mencionando aspectos do lugar e da identidade do autor, como em 'Eu falo do lugar que me fez' e 'Minha identidade é feita disso tudo'.",
+                                "O aluno utiliza elementos poéticos, como rimas e metáforas, que caracterizam a redação como um poema, por exemplo, 'do barro que gruda na pele' e 'cada passo que eu dou é um chute contra o vento'.",
+                                "A redação apresenta uma estrutura coesa, com uma progressão de ideias que se conectam ao longo do texto, refletindo sobre pertencimento e identidade."
+                            ],
+                            "de_um_passo_alem": "Para aprimorar ainda mais sua redação, sugiro que você revise a pontuação e a ortografia, como em 'as mão rachada da minha vó', que deveria ser 'as mãos rachadas da minha vó'. Além disso, você pode explorar mais a conexão entre os elementos do seu lugar e como eles moldam sua identidade, talvez incluindo mais detalhes sobre suas experiências pessoais. Isso pode enriquecer ainda mais a sua narrativa poética."
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3351,
+            "completion_tokens": 276
+        },
+        {
+            "titulo": "Do Chão Que Eu Piso e Das Asas Que Eu Voo",
+            "texto": "Eu falo do lugar que me fez\nterra vermelha e poeira no ar\nde onde eu vi tudo nascer\nas mão rachada da minha vó\no cheiro forte da comida no fogão\ne os sonho que dormia na rede\nSou desse chão que suja o pé\nmas às vez me faz tropeçar\n\nMinha voz vem do bairro estreito\nonde o quintal era apertado, mas a fé era grande\nAqui a gente aprende tropeçando\nque cair faz parte\nmas nem sempre dá pra levantar\nMinha identidade é feita disso tudo\ndo barro que gruda na pele\ne das asa que tenta voar\nmesmo quebrada\n\nPertencer? Às vez nem sei se pertenço\nParece que vivo fora do campo\nque minha história nem encaixa\nMas é desse lugar que eu tiro coragem\npra tentar fazer minha marca\nMesmo sem ser totalmente minha\na quebrada é onde eu cresci\n\nSe perguntarem de onde eu venho\neu respondo: é do meio da luta\nonde cada passo que eu dou\né um chute contra o vento\nEu sou o que tento ser\ne o lugar de onde eu falo é o meu palco",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 1,
+                        "criterio": "Adequção ao tema",
+                        "nota": 10.0,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "A redação menciona claramente o lugar de onde fala o eu lírico, ao descrever 'o lugar que me fez' e 'o bairro estreito'. Isso atende à primeira tarefa solicitada.",
+                                "O texto explicita a relação entre esse lugar e a identidade do eu lírico, ao afirmar que 'Minha identidade é feita disso tudo' e relacionar suas experiências e memórias ao lugar de origem.",
+                                "O eu lírico declara em que medida se sente pertencente ao lugar, ao refletir sobre sua luta e coragem, mencionando que 'é desse lugar que eu tiro coragem' e questionando se realmente pertence, o que demonstra uma relação complexa com sua identidade e seu espaço."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3351,
+            "completion_tokens": 325
+        },
+        {
+            "titulo": "Do Chão Que Eu Piso e Das Asas Que Eu Voo",
+            "texto": "Eu falo do lugar que me fez\nterra vermelha e poeira no ar\nde onde eu vi tudo nascer\nas mão rachada da minha vó\no cheiro forte da comida no fogão\ne os sonho que dormia na rede\nSou desse chão que suja o pé\nmas às vez me faz tropeçar\n\nMinha voz vem do bairro estreito\nonde o quintal era apertado, mas a fé era grande\nAqui a gente aprende tropeçando\nque cair faz parte\nmas nem sempre dá pra levantar\nMinha identidade é feita disso tudo\ndo barro que gruda na pele\ne das asa que tenta voar\nmesmo quebrada\n\nPertencer? Às vez nem sei se pertenço\nParece que vivo fora do campo\nque minha história nem encaixa\nMas é desse lugar que eu tiro coragem\npra tentar fazer minha marca\nMesmo sem ser totalmente minha\na quebrada é onde eu cresci\n\nSe perguntarem de onde eu venho\neu respondo: é do meio da luta\nonde cada passo que eu dou\né um chute contra o vento\nEu sou o que tento ser\ne o lugar de onde eu falo é o meu palco",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 2,
+                        "criterio": "Adequação ao gênero",
+                        "nota": 10.0,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "O poema apresenta versos livres, o que é adequado para o gênero proposto.",
+                                "Explora os sons das palavras de forma a criar um ritmo perceptível, como em 'terra vermelha e poeira no ar', onde a sonoridade das palavras contribui para a musicalidade do texto.",
+                                "Utiliza figuras de linguagem em todas as estrofes, como metáforas e imagens sensoriais, por exemplo, 'o cheiro forte da comida no fogão' e 'o barro que gruda na pele', que enriquecem a expressão poética."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3351,
+            "completion_tokens": 281
+        },
+        {
+            "titulo": "Do Chão Que Eu Piso e Das Asas Que Eu Voo",
+            "texto": "Eu falo do lugar que me fez\nterra vermelha e poeira no ar\nde onde eu vi tudo nascer\nas mão rachada da minha vó\no cheiro forte da comida no fogão\ne os sonho que dormia na rede\nSou desse chão que suja o pé\nmas às vez me faz tropeçar\n\nMinha voz vem do bairro estreito\nonde o quintal era apertado, mas a fé era grande\nAqui a gente aprende tropeçando\nque cair faz parte\nmas nem sempre dá pra levantar\nMinha identidade é feita disso tudo\ndo barro que gruda na pele\ne das asa que tenta voar\nmesmo quebrada\n\nPertencer? Às vez nem sei se pertenço\nParece que vivo fora do campo\nque minha história nem encaixa\nMas é desse lugar que eu tiro coragem\npra tentar fazer minha marca\nMesmo sem ser totalmente minha\na quebrada é onde eu cresci\n\nSe perguntarem de onde eu venho\neu respondo: é do meio da luta\nonde cada passo que eu dou\né um chute contra o vento\nEu sou o que tento ser\ne o lugar de onde eu falo é o meu palco",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 3,
+                        "criterio": "Coerencia",
+                        "nota": 7.5,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "A redação apresenta uma sequência lógica nas ideias, começando pela descrição do lugar de origem e suas características, como 'terra vermelha e poeira no ar', que estabelece um forte sentido de pertencimento.",
+                                "A transição entre a descrição do espaço físico e a reflexão sobre a identidade é fluida, como em 'Minha identidade é feita disso tudo', o que demonstra uma conexão clara entre o lugar e a formação da identidade do eu lírico.",
+                                "A ideia de pertencimento é explorada de forma coerente, mesmo com a dúvida expressa em 'Pertencer? Às vez nem sei se pertenço', que traz uma reflexão profunda sobre a identidade e a relação com o espaço."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para melhorar a coerência, sugiro que você trabalhe um pouco mais as transições entre algumas ideias. Por exemplo, a passagem de 'a quebrada é onde eu cresci' para 'Se perguntarem de onde eu venho' poderia ser mais conectada, talvez explicando como essa experiência moldou sua visão de mundo.",
+                                "Além disso, algumas expressões, como 'as mão rachada da minha vó', poderiam ser revisadas para garantir que a ideia de ancestralidade e herança cultural se conecte ainda mais com a sua identidade, reforçando a lógica entre as ideias apresentadas."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3351,
+            "completion_tokens": 317
+        },
+        {
+            "titulo": "Do Chão Que Eu Piso e Das Asas Que Eu Voo",
+            "texto": "Eu falo do lugar que me fez\nterra vermelha e poeira no ar\nde onde eu vi tudo nascer\nas mão rachada da minha vó\no cheiro forte da comida no fogão\ne os sonho que dormia na rede\nSou desse chão que suja o pé\nmas às vez me faz tropeçar\n\nMinha voz vem do bairro estreito\nonde o quintal era apertado, mas a fé era grande\nAqui a gente aprende tropeçando\nque cair faz parte\nmas nem sempre dá pra levantar\nMinha identidade é feita disso tudo\ndo barro que gruda na pele\ne das asa que tenta voar\nmesmo quebrada\n\nPertencer? Às vez nem sei se pertenço\nParece que vivo fora do campo\nque minha história nem encaixa\nMas é desse lugar que eu tiro coragem\npra tentar fazer minha marca\nMesmo sem ser totalmente minha\na quebrada é onde eu cresci\n\nSe perguntarem de onde eu venho\neu respondo: é do meio da luta\nonde cada passo que eu dou\né um chute contra o vento\nEu sou o que tento ser\ne o lugar de onde eu falo é o meu palco",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 4,
+                        "criterio": "Coesão",
+                        "nota": 7.5,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "O texto apresenta uma boa coesão sequencial, com as ideias fluindo de forma lógica entre os versos. Por exemplo, a transição entre a descrição do lugar e a reflexão sobre a identidade é feita de maneira suave, como em 'Minha identidade é feita disso tudo'.",
+                                "Os recursos coesivos, como pronomes e conjunções, são utilizados de forma adequada, ajudando a conectar as ideias. A expressão 'mas nem sempre dá pra levantar' liga a ideia de cair à reflexão sobre a identidade, mostrando uma relação clara entre os dois conceitos.",
+                                "A repetição de elementos como 'chão' e 'luta' ao longo do texto cria uma unidade temática, reforçando a coesão lexical."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para melhorar ainda mais a coesão, sugiro que você revise algumas construções que podem ser aprimoradas. Por exemplo, a frase 'mas às vez me faz tropeçar' poderia ser reescrita para 'mas às vezes me faz tropeçar', corrigindo a ortografia e mantendo a fluidez.",
+                                "Além disso, a expressão 'a quebrada é onde eu cresci' poderia ser melhor conectada ao restante do texto. Você poderia considerar uma transição mais explícita, como 'e é nesse lugar quebrado que eu cresci', para reforçar a ligação entre a ideia de pertencimento e a sua história.",
+                                "Por fim, ao final do texto, você poderia reforçar a conexão entre o lugar e sua identidade, talvez repetindo a ideia de 'meu palco' em relação ao 'chão', para criar um fechamento mais coeso."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3351,
+            "completion_tokens": 382
+        },
+        {
+            "titulo": "Do Chão Que Eu Piso e Das Asas Que Eu Voo",
+            "texto": "Eu falo do lugar que me fez\nterra vermelha e poeira no ar\nde onde eu vi tudo nascer\nas mão rachada da minha vó\no cheiro forte da comida no fogão\ne os sonho que dormia na rede\nSou desse chão que suja o pé\nmas às vez me faz tropeçar\n\nMinha voz vem do bairro estreito\nonde o quintal era apertado, mas a fé era grande\nAqui a gente aprende tropeçando\nque cair faz parte\nmas nem sempre dá pra levantar\nMinha identidade é feita disso tudo\ndo barro que gruda na pele\ne das asa que tenta voar\nmesmo quebrada\n\nPertencer? Às vez nem sei se pertenço\nParece que vivo fora do campo\nque minha história nem encaixa\nMas é desse lugar que eu tiro coragem\npra tentar fazer minha marca\nMesmo sem ser totalmente minha\na quebrada é onde eu cresci\n\nSe perguntarem de onde eu venho\neu respondo: é do meio da luta\nonde cada passo que eu dou\né um chute contra o vento\nEu sou o que tento ser\ne o lugar de onde eu falo é o meu palco",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 5,
+                        "criterio": "Convenções da escrita",
+                        "nota": 7.5,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "A redação apresenta uma linguagem majoritariamente inventiva e conotativa, como pode ser observado em trechos como 'terra vermelha e poeira no ar', que evocam imagens vívidas e sensações.",
+                                "O uso de expressões como 'as mão rachada da minha vó' e 'o cheiro forte da comida no fogão' trazem uma forte conexão com a oralidade e a informalidade, características que enriquecem o texto.",
+                                "A repetição da ideia de pertencimento e identidade, como em 'Minha identidade é feita disso tudo', demonstra uma construção poética que dialoga bem com o tema proposto."
+                            ],
+                            "de_um_passo_alem": [
+                                "Embora a redação tenha uma boa dose de inventividade, algumas partes poderiam ser mais trabalhadas para garantir uma fluidez maior. Por exemplo, a frase 'mas às vez me faz tropeçar' poderia ser reestruturada para 'mas às vezes me faz tropeçar', corrigindo a grafia e mantendo a musicalidade.",
+                                "Sugiro que você explore ainda mais a sonoridade das palavras e a construção de imagens poéticas. Por exemplo, ao invés de 'as asa que tenta voar', poderia ser interessante usar 'as asas que tentam voar', o que reforçaria a ideia de pluralidade e luta.",
+                                "Por fim, considere revisar a pontuação em algumas partes para melhorar a clareza e o ritmo do texto, como em 'Aqui a gente aprende tropeçando', que poderia ser mais impactante com uma pausa antes de 'que cair faz parte'."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3351,
+            "completion_tokens": 364
+        }
+    ],
+    [
+        {
+            "titulo": "Da Linha Que Eu Traço",
+            "texto": "Eu falo da ponta do lápis\ndo papel riscado na mesa velha\nda mão que desenha um futuro torto\nporque linha reta aqui nunca existiu\nO caderno já não tem capa\nmas carrega meus rascunho\nmeu erro meu começo\n\nMinha história é tinta borrada\nletra que falta palavra esquecida\nCada verso que eu escrevo\né mais um pedaço de quem eu sou\nSou feito de ideia solta\nque encontra sentido no meio da bagunça\nSou folha rasgada que ninguém quis guardar\n\nMinha linha cruza caminhos desconhecidos\né no desvio que eu me acho\né no que sobra que eu me vejo\nO papel não escolhe o que recebe\ne eu aprendi a escrever até na parede\nporque o mundo não dá espaço\na gente cria\n\nSe me perguntam de onde eu falo\neu digo da história que eu invento\neu falo da margem do caderno\nonde o espaço é pequeno\nmas minha voz cabe inteira\né daqui que eu traço meu mundo",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 0,
+                        "criterio": "Anulação",
+                        "nota": "NÃO",
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "O texto aborda o tema 'O lugar de onde eu falo' ao refletir sobre a identidade e o pertencimento do eu lírico, que se expressa através da escrita e da sua relação com o papel e o lápis.",
+                                "A redação apresenta elementos poéticos, como metáforas e imagens que evocam sentimentos e experiências pessoais, caracterizando-se claramente como um poema.",
+                                "Não há trechos desconectados; a construção do texto flui de maneira coesa, com cada estrofe contribuindo para a construção da ideia central."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para aprimorar ainda mais sua redação, você poderia explorar mais profundamente a relação entre o espaço físico e a sua identidade. Por exemplo, poderia incluir mais detalhes sobre o ambiente em que você escreve, como a mesa velha mencionada, para criar uma imagem mais vívida.",
+                                "Outra sugestão seria trabalhar com a sonoridade dos versos, utilizando mais recursos como aliterações ou assonâncias, que poderiam enriquecer a musicalidade do poema. Por exemplo, ao invés de 'linha reta aqui nunca existiu', você poderia experimentar variações que criem um ritmo mais marcante."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3312,
+            "completion_tokens": 286
+        },
+        {
+            "titulo": "Da Linha Que Eu Traço",
+            "texto": "Eu falo da ponta do lápis\ndo papel riscado na mesa velha\nda mão que desenha um futuro torto\nporque linha reta aqui nunca existiu\nO caderno já não tem capa\nmas carrega meus rascunho\nmeu erro meu começo\n\nMinha história é tinta borrada\nletra que falta palavra esquecida\nCada verso que eu escrevo\né mais um pedaço de quem eu sou\nSou feito de ideia solta\nque encontra sentido no meio da bagunça\nSou folha rasgada que ninguém quis guardar\n\nMinha linha cruza caminhos desconhecidos\né no desvio que eu me acho\né no que sobra que eu me vejo\nO papel não escolhe o que recebe\ne eu aprendi a escrever até na parede\nporque o mundo não dá espaço\na gente cria\n\nSe me perguntam de onde eu falo\neu digo da história que eu invento\neu falo da margem do caderno\nonde o espaço é pequeno\nmas minha voz cabe inteira\né daqui que eu traço meu mundo",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 1,
+                        "criterio": "Adequção ao tema",
+                        "nota": 7.5,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "A redação menciona o lugar de onde fala o eu lírico, que é a 'margem do caderno', o que atende a uma das tarefas solicitadas no enunciado.",
+                                "O texto também expressa a relação entre esse lugar e a identidade do eu lírico, ao afirmar que 'é no desvio que eu me acho' e 'é no que sobra que eu me vejo', mostrando como a experiência de escrever e a condição de estar à margem influenciam sua identidade.",
+                                "Além disso, o eu lírico declara em que medida se sente pertencente ao lugar ao afirmar que 'minha voz cabe inteira', o que sugere uma aceitação e uma apropriação do espaço que ocupa."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para melhorar ainda mais a redação, você poderia explorar mais explicitamente a relação entre o lugar e a identidade. Por exemplo, poderia descrever como a experiência de estar à margem do caderno impacta suas emoções ou suas vivências.",
+                                "Além disso, seria interessante incluir mais detalhes sobre o que significa para você 'desenhar um futuro torto' e como isso se relaciona com a sua percepção de pertencimento. Isso poderia enriquecer a conexão entre o lugar e a identidade do eu lírico.",
+                                "Por fim, considere a possibilidade de estruturar a redação de forma a deixar mais claro o desenvolvimento das ideias, talvez com uma introdução que contextualize melhor o tema antes de mergulhar nas metáforas."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3312,
+            "completion_tokens": 353
+        },
+        {
+            "titulo": "Da Linha Que Eu Traço",
+            "texto": "Eu falo da ponta do lápis\ndo papel riscado na mesa velha\nda mão que desenha um futuro torto\nporque linha reta aqui nunca existiu\nO caderno já não tem capa\nmas carrega meus rascunho\nmeu erro meu começo\n\nMinha história é tinta borrada\nletra que falta palavra esquecida\nCada verso que eu escrevo\né mais um pedaço de quem eu sou\nSou feito de ideia solta\nque encontra sentido no meio da bagunça\nSou folha rasgada que ninguém quis guardar\n\nMinha linha cruza caminhos desconhecidos\né no desvio que eu me acho\né no que sobra que eu me vejo\nO papel não escolhe o que recebe\ne eu aprendi a escrever até na parede\nporque o mundo não dá espaço\na gente cria\n\nSe me perguntam de onde eu falo\neu digo da história que eu invento\neu falo da margem do caderno\nonde o espaço é pequeno\nmas minha voz cabe inteira\né daqui que eu traço meu mundo",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 2,
+                        "criterio": "Adequação ao gênero",
+                        "nota": 10.0,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "O poema apresenta versos livres, o que é adequado ao gênero proposto.",
+                                "Explora os sons das palavras de forma a criar um ritmo perceptível, como em 'linha reta aqui nunca existiu' e 'é no desvio que eu me acho', onde a sonoridade e a cadência são bem trabalhadas.",
+                                "Utiliza figuras de linguagem em todas as estrofes, como metáforas e imagens poéticas, por exemplo, 'Sou folha rasgada que ninguém quis guardar' e 'o papel não escolhe o que recebe', que enriquecem o texto e trazem profundidade ao significado."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3312,
+            "completion_tokens": 308
+        },
+        {
+            "titulo": "Da Linha Que Eu Traço",
+            "texto": "Eu falo da ponta do lápis\ndo papel riscado na mesa velha\nda mão que desenha um futuro torto\nporque linha reta aqui nunca existiu\nO caderno já não tem capa\nmas carrega meus rascunho\nmeu erro meu começo\n\nMinha história é tinta borrada\nletra que falta palavra esquecida\nCada verso que eu escrevo\né mais um pedaço de quem eu sou\nSou feito de ideia solta\nque encontra sentido no meio da bagunça\nSou folha rasgada que ninguém quis guardar\n\nMinha linha cruza caminhos desconhecidos\né no desvio que eu me acho\né no que sobra que eu me vejo\nO papel não escolhe o que recebe\ne eu aprendi a escrever até na parede\nporque o mundo não dá espaço\na gente cria\n\nSe me perguntam de onde eu falo\neu digo da história que eu invento\neu falo da margem do caderno\nonde o espaço é pequeno\nmas minha voz cabe inteira\né daqui que eu traço meu mundo",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 3,
+                        "criterio": "Coerencia",
+                        "nota": 7.5,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "A redação apresenta uma sequência lógica nas ideias, começando pela descrição do lápis e do papel, passando pela reflexão sobre a própria história e culminando na afirmação de que a voz do autor cabe inteira na margem do caderno.",
+                                "A ideia de que 'é no desvio que eu me acho' conecta bem com o tema central da redação, que é a busca por identidade e expressão em meio a imperfeições.",
+                                "A utilização de metáforas, como 'sou folha rasgada que ninguém quis guardar', enriquece o texto e demonstra uma coerência interna nas reflexões do autor sobre sua própria trajetória."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para aprimorar ainda mais a coerência, sugiro que você explore mais a relação entre as ideias apresentadas. Por exemplo, ao mencionar 'a mão que desenha um futuro torto', poderia haver uma conexão mais explícita com as consequências desse futuro nas estrofes seguintes.",
+                                "Além disso, você pode considerar a inclusão de transições mais claras entre algumas partes do texto, para que o leitor possa acompanhar melhor a evolução do seu pensamento. Por exemplo, ao passar de 'meu erro meu começo' para 'minha história é tinta borrada', uma frase de transição poderia ajudar a ligar essas ideias de forma mais fluida."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3312,
+            "completion_tokens": 313
+        },
+        {
+            "titulo": "Da Linha Que Eu Traço",
+            "texto": "Eu falo da ponta do lápis\ndo papel riscado na mesa velha\nda mão que desenha um futuro torto\nporque linha reta aqui nunca existiu\nO caderno já não tem capa\nmas carrega meus rascunho\nmeu erro meu começo\n\nMinha história é tinta borrada\nletra que falta palavra esquecida\nCada verso que eu escrevo\né mais um pedaço de quem eu sou\nSou feito de ideia solta\nque encontra sentido no meio da bagunça\nSou folha rasgada que ninguém quis guardar\n\nMinha linha cruza caminhos desconhecidos\né no desvio que eu me acho\né no que sobra que eu me vejo\nO papel não escolhe o que recebe\ne eu aprendi a escrever até na parede\nporque o mundo não dá espaço\na gente cria\n\nSe me perguntam de onde eu falo\neu digo da história que eu invento\neu falo da margem do caderno\nonde o espaço é pequeno\nmas minha voz cabe inteira\né daqui que eu traço meu mundo",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 4,
+                        "criterio": "Coesão",
+                        "nota": 7.5,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "O texto apresenta uma boa coesão sequencial, com as ideias fluindo de forma lógica entre os versos. Por exemplo, a transição entre a ideia de 'linha reta' e 'futuro torto' estabelece uma conexão clara entre a forma como o autor vê sua trajetória e a estética do texto.",
+                                "Os recursos coesivos são utilizados de maneira adequada, como em 'é no desvio que eu me acho', onde a relação entre desvio e autodescoberta é bem estabelecida, contribuindo para a coesão referencial.",
+                                "A repetição de elementos como 'linha' e 'papel' ao longo do texto cria uma unidade temática que reforça a coesão lexical."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para melhorar ainda mais a coesão, você poderia explorar mais conectores que ajudem a guiar o leitor entre as ideias. Por exemplo, ao falar sobre 'tinta borrada' e 'letra que falta', poderia haver uma transição mais explícita que conectasse essas ideias à sua identidade.",
+                                "Considere também a possibilidade de usar mais pronomes ou expressões que remetam a ideias anteriores, para reforçar a coesão referencial. Por exemplo, ao mencionar 'a história que eu invento', poderia ser interessante fazer uma ligação mais direta com os 'rascunhos' mencionados anteriormente."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3312,
+            "completion_tokens": 329
+        },
+        {
+            "titulo": "Da Linha Que Eu Traço",
+            "texto": "Eu falo da ponta do lápis\ndo papel riscado na mesa velha\nda mão que desenha um futuro torto\nporque linha reta aqui nunca existiu\nO caderno já não tem capa\nmas carrega meus rascunho\nmeu erro meu começo\n\nMinha história é tinta borrada\nletra que falta palavra esquecida\nCada verso que eu escrevo\né mais um pedaço de quem eu sou\nSou feito de ideia solta\nque encontra sentido no meio da bagunça\nSou folha rasgada que ninguém quis guardar\n\nMinha linha cruza caminhos desconhecidos\né no desvio que eu me acho\né no que sobra que eu me vejo\nO papel não escolhe o que recebe\ne eu aprendi a escrever até na parede\nporque o mundo não dá espaço\na gente cria\n\nSe me perguntam de onde eu falo\neu digo da história que eu invento\neu falo da margem do caderno\nonde o espaço é pequeno\nmas minha voz cabe inteira\né daqui que eu traço meu mundo",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 5,
+                        "criterio": "Convenções da escrita",
+                        "nota": 10.0,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "A redação apresenta uma linguagem altamente inventiva e conotativa, como pode ser visto em trechos como 'Sou feito de ideia solta que encontra sentido no meio da bagunça', que traz uma imagem rica e poética.",
+                                "As marcas de oralidade e informalidade são perceptíveis, especialmente na forma como o eu lírico se dirige ao leitor e compartilha suas reflexões, como em 'porque linha reta aqui nunca existiu'.",
+                                "O uso de metáforas e imagens visuais, como 'o papel não escolhe o que recebe', demonstra um domínio das convenções da escrita que se adequa perfeitamente à proposta comunicativa do poema."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3312,
+            "completion_tokens": 296
+        }
+    ],
+    [
+        {
+            "titulo": "Luz Que Não Brilha",
+            "texto": "Eu falo de estrelas no céu\nque aparecem só quando tá tudo escuro\nmas tem dia que nem elas aparecem\ne aí eu fico sem saber pra onde olhar\nAs nuvens tampam tudo\na cidade é cheia de luz\nmas é uma luz que não ilumina\numa luz que cega\n\nEu tento entender o que essa luz quer dizer\nmas parece que não tem resposta\nsó barulho e vazio\nE eu ando sem rumo\nme perguntando se existe algum\nse tem algum brilho guardado pra mim\nou se eu tô só andando por aí\n\nMinha voz é um sussurro perdido\nnum mundo que grita demais\ntudo parece tão grande\nque eu não sei onde cabe a minha história\nmas eu continuo andando\nporque ficar parado também não resolve\n\nSe me perguntam de onde eu falo\neu nem sei o que responder\ntalvez de um lugar que eu nunca conheci\nou de um que nunca me quis por perto\nou de uma estrela apagada\nque ainda tenta brilhar no meio do nada",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 0,
+                        "criterio": "Anulação",
+                        "nota": "NÃO",
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "O texto aborda o tema 'O lugar de onde eu falo', refletindo sobre a identidade e o pertencimento através da metáfora das estrelas e da luz.",
+                                "A menção a 'minha voz é um sussurro perdido' indica uma busca por um lugar de fala e identidade, o que se conecta diretamente ao tema proposto.",
+                                "A expressão 'talvez de um lugar que eu nunca conheci' demonstra uma reflexão sobre a própria identidade e a relação com o espaço, o que é pertinente ao tema."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para fortalecer ainda mais a conexão com o tema, você poderia incluir mais elementos que descrevam o lugar físico de onde você fala, como memórias ou experiências específicas que o conectem a esse espaço.",
+                                "Considere explorar mais a ideia de pertencimento, talvez trazendo referências a pessoas ou momentos que te fazem sentir parte de um lugar, o que poderia enriquecer a sua reflexão."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3311,
+            "completion_tokens": 237
+        },
+        {
+            "titulo": "Luz Que Não Brilha",
+            "texto": "Eu falo de estrelas no céu\nque aparecem só quando tá tudo escuro\nmas tem dia que nem elas aparecem\ne aí eu fico sem saber pra onde olhar\nAs nuvens tampam tudo\na cidade é cheia de luz\nmas é uma luz que não ilumina\numa luz que cega\n\nEu tento entender o que essa luz quer dizer\nmas parece que não tem resposta\nsó barulho e vazio\nE eu ando sem rumo\nme perguntando se existe algum\nse tem algum brilho guardado pra mim\nou se eu tô só andando por aí\n\nMinha voz é um sussurro perdido\nnum mundo que grita demais\ntudo parece tão grande\nque eu não sei onde cabe a minha história\nmas eu continuo andando\nporque ficar parado também não resolve\n\nSe me perguntam de onde eu falo\neu nem sei o que responder\ntalvez de um lugar que eu nunca conheci\nou de um que nunca me quis por perto\nou de uma estrela apagada\nque ainda tenta brilhar no meio do nada",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 1,
+                        "criterio": "Adequção ao tema",
+                        "nota": 5.0,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "A redação menciona o lugar de onde fala o eu lírico, embora de forma figurada, ao dizer que fala 'talvez de um lugar que eu nunca conheci' e 'ou de uma estrela apagada'. Isso demonstra uma tentativa de situar a voz poética em um espaço que reflete sua identidade.",
+                                "O texto expressa a relação entre esse lugar e a identidade do eu lírico ao mencionar a sensação de não pertencimento e a busca por um significado, como em 'tudo parece tão grande que eu não sei onde cabe a minha história'."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para melhorar a adequação ao tema, sugiro que você explore mais explicitamente a relação entre o lugar e a sua identidade. Por exemplo, você poderia descrever mais sobre como esse 'lugar' impacta suas emoções e sua percepção de si mesmo.",
+                                "Além disso, seria interessante que você declarasse de forma mais clara em que medida se sente pertencente ou não a esse lugar. Isso poderia enriquecer a sua redação e torná-la ainda mais conectada ao tema proposto."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3311,
+            "completion_tokens": 275
+        },
+        {
+            "titulo": "Luz Que Não Brilha",
+            "texto": "Eu falo de estrelas no céu\nque aparecem só quando tá tudo escuro\nmas tem dia que nem elas aparecem\ne aí eu fico sem saber pra onde olhar\nAs nuvens tampam tudo\na cidade é cheia de luz\nmas é uma luz que não ilumina\numa luz que cega\n\nEu tento entender o que essa luz quer dizer\nmas parece que não tem resposta\nsó barulho e vazio\nE eu ando sem rumo\nme perguntando se existe algum\nse tem algum brilho guardado pra mim\nou se eu tô só andando por aí\n\nMinha voz é um sussurro perdido\nnum mundo que grita demais\ntudo parece tão grande\nque eu não sei onde cabe a minha história\nmas eu continuo andando\nporque ficar parado também não resolve\n\nSe me perguntam de onde eu falo\neu nem sei o que responder\ntalvez de um lugar que eu nunca conheci\nou de um que nunca me quis por perto\nou de uma estrela apagada\nque ainda tenta brilhar no meio do nada",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 2,
+                        "criterio": "Adequação ao gênero",
+                        "nota": 10.0,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "O poema apresenta versos livres, o que é adequado ao gênero proposto.",
+                                "Explora os sons das palavras de forma a criar um ritmo perceptível, como em 'mas é uma luz que cega', onde a sonoridade é marcante.",
+                                "Utiliza figuras de linguagem em todas as estrofes, como metáforas e comparações, por exemplo, 'uma luz que cega' e 'minha voz é um sussurro perdido', que enriquecem a expressividade do texto."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3311,
+            "completion_tokens": 247
+        },
+        {
+            "titulo": "Luz Que Não Brilha",
+            "texto": "Eu falo de estrelas no céu\nque aparecem só quando tá tudo escuro\nmas tem dia que nem elas aparecem\ne aí eu fico sem saber pra onde olhar\nAs nuvens tampam tudo\na cidade é cheia de luz\nmas é uma luz que não ilumina\numa luz que cega\n\nEu tento entender o que essa luz quer dizer\nmas parece que não tem resposta\nsó barulho e vazio\nE eu ando sem rumo\nme perguntando se existe algum\nse tem algum brilho guardado pra mim\nou se eu tô só andando por aí\n\nMinha voz é um sussurro perdido\nnum mundo que grita demais\ntudo parece tão grande\nque eu não sei onde cabe a minha história\nmas eu continuo andando\nporque ficar parado também não resolve\n\nSe me perguntam de onde eu falo\neu nem sei o que responder\ntalvez de um lugar que eu nunca conheci\nou de um que nunca me quis por perto\nou de uma estrela apagada\nque ainda tenta brilhar no meio do nada",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 3,
+                        "criterio": "Coerencia",
+                        "nota": 7.5,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "A redação apresenta uma sequência lógica nas ideias, começando com a descrição das estrelas e a escuridão, o que estabelece um contraste interessante entre luz e escuridão.",
+                                "A transição entre a reflexão sobre a luz que não ilumina e a busca por significado é coerente, mostrando uma continuidade de pensamento que faz sentido dentro do contexto apresentado.",
+                                "A ideia de 'andar sem rumo' e a busca por um 'brilho guardado' são bem conectadas, refletindo uma jornada pessoal que se alinha com a temática da redação."
+                            ],
+                            "de_um_passo_alem": [
+                                "Embora a redação seja majoritariamente coerente, poderia haver uma maior conexão entre algumas ideias secundárias. Por exemplo, a passagem sobre 'minha voz é um sussurro perdido' poderia ser melhor integrada ao tema central da busca por significado e luz.",
+                                "Sugiro que você explore mais a relação entre a cidade cheia de luz e a sensação de vazio que isso provoca. Isso poderia enriquecer a reflexão e dar mais profundidade à sua argumentação.",
+                                "Além disso, considere adicionar algumas transições mais explícitas entre os parágrafos, para que o leitor possa seguir sua linha de raciocínio de forma ainda mais fluida."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3311,
+            "completion_tokens": 300
+        },
+        {
+            "titulo": "Luz Que Não Brilha",
+            "texto": "Eu falo de estrelas no céu\nque aparecem só quando tá tudo escuro\nmas tem dia que nem elas aparecem\ne aí eu fico sem saber pra onde olhar\nAs nuvens tampam tudo\na cidade é cheia de luz\nmas é uma luz que não ilumina\numa luz que cega\n\nEu tento entender o que essa luz quer dizer\nmas parece que não tem resposta\nsó barulho e vazio\nE eu ando sem rumo\nme perguntando se existe algum\nse tem algum brilho guardado pra mim\nou se eu tô só andando por aí\n\nMinha voz é um sussurro perdido\nnum mundo que grita demais\ntudo parece tão grande\nque eu não sei onde cabe a minha história\nmas eu continuo andando\nporque ficar parado também não resolve\n\nSe me perguntam de onde eu falo\neu nem sei o que responder\ntalvez de um lugar que eu nunca conheci\nou de um que nunca me quis por perto\nou de uma estrela apagada\nque ainda tenta brilhar no meio do nada",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 4,
+                        "criterio": "Coesão",
+                        "nota": 7.5,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "O texto apresenta uma boa coesão sequencial, com as ideias fluindo de maneira lógica. Por exemplo, a transição entre a descrição das estrelas e a reflexão sobre a luz da cidade é feita de forma suave: 'mas é uma luz que cega'.",
+                                "Os recursos coesivos são utilizados de forma adequada, como em 'Eu tento entender o que essa luz quer dizer', que conecta a ideia anterior com a busca por significado.",
+                                "A repetição de temas, como a busca por luz e sentido, ajuda a manter a coesão referencial ao longo do texto, como em 'se tem algum brilho guardado pra mim'."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para melhorar ainda mais a coesão, você poderia trabalhar em algumas transições entre estrofes. Por exemplo, a passagem entre a reflexão sobre a cidade e a busca pessoal poderia ser mais explícita, talvez utilizando uma frase de ligação que conecte esses dois momentos.",
+                                "Além disso, considere revisar algumas expressões que podem ser mais claras. Por exemplo, a frase 'ou de uma estrela apagada que ainda tenta brilhar no meio do nada' poderia ser reestruturada para reforçar a conexão com a ideia de busca por significado, talvez explicando melhor o que essa estrela representa para você."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3311,
+            "completion_tokens": 311
+        },
+        {
+            "titulo": "Luz Que Não Brilha",
+            "texto": "Eu falo de estrelas no céu\nque aparecem só quando tá tudo escuro\nmas tem dia que nem elas aparecem\ne aí eu fico sem saber pra onde olhar\nAs nuvens tampam tudo\na cidade é cheia de luz\nmas é uma luz que não ilumina\numa luz que cega\n\nEu tento entender o que essa luz quer dizer\nmas parece que não tem resposta\nsó barulho e vazio\nE eu ando sem rumo\nme perguntando se existe algum\nse tem algum brilho guardado pra mim\nou se eu tô só andando por aí\n\nMinha voz é um sussurro perdido\nnum mundo que grita demais\ntudo parece tão grande\nque eu não sei onde cabe a minha história\nmas eu continuo andando\nporque ficar parado também não resolve\n\nSe me perguntam de onde eu falo\neu nem sei o que responder\ntalvez de um lugar que eu nunca conheci\nou de um que nunca me quis por perto\nou de uma estrela apagada\nque ainda tenta brilhar no meio do nada",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 5,
+                        "criterio": "Convenções da escrita",
+                        "nota": 10.0,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "A redação apresenta uma linguagem altamente inventiva e conotativa, como pode ser observado na expressão 'uma luz que cega', que traz uma forte carga emocional e uma metáfora poderosa.",
+                                "As marcas de oralidade são perceptíveis, especialmente na forma como o eu-lírico se dirige ao leitor com um tom íntimo e reflexivo, como em 'Eu falo de estrelas no céu'.",
+                                "A informalidade do texto contribui para a conexão com o leitor, tornando a mensagem mais acessível e impactante, como em 'tudo parece tão grande que eu não sei onde cabe a minha história'."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3311,
+            "completion_tokens": 269
+        }
+    ],
+    [
+        {
+            "titulo": "Sem Saber Onde Ir",
+            "texto": "Eu ando por aí\nprocuro algo que não sei o que é\nolho pra frente mas não vejo nada\nàs vezes parece que a estrada acaba\ne eu fico parado\nesperando\n\nO mundo gira e eu só quero parar\ntanta coisa acontece e eu nem sei o que pensar\nme sinto pequeno\ncomo se não coubesse em lugar nenhum\ncomo se fosse só mais alguém\nandando sem rumo\n\nQueria achar um lugar meu\num canto onde eu pudesse ficar\nmas tudo parece tão distante\ncomo um sonho que a gente não consegue alcançar",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 0,
+                        "criterio": "Anulação",
+                        "nota": "NÃO",
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "O texto aborda a temática do 'lugar' ao expressar a busca por um espaço pessoal e a sensação de não pertencimento, como evidenciado na frase 'Queria achar um lugar meu'.",
+                                "A redação também reflete sobre a identidade e o pertencimento, mencionando a sensação de ser 'só mais alguém' e de não couber em lugar nenhum, o que se relaciona diretamente com a proposta do tema.",
+                                "Além disso, o texto é estruturado como um poema, apresentando versos livres e uma cadência que caracteriza esse gênero textual."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para aprimorar sua redação, você poderia explorar mais a descrição do 'lugar' que deseja encontrar, talvez incluindo imagens ou sentimentos que representem esse espaço ideal.",
+                                "Outra sugestão é trabalhar a construção de algumas metáforas que possam enriquecer a sua mensagem, como, por exemplo, descrever o que significa para você 'ficar parado' ou 'esperar', para dar mais profundidade ao seu sentimento de busca.",
+                                "Por fim, considere revisar a pontuação e a estrutura dos versos para garantir que a fluidez do poema seja ainda mais impactante."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3207,
+            "completion_tokens": 286
+        },
+        {
+            "titulo": "Sem Saber Onde Ir",
+            "texto": "Eu ando por aí\nprocuro algo que não sei o que é\nolho pra frente mas não vejo nada\nàs vezes parece que a estrada acaba\ne eu fico parado\nesperando\n\nO mundo gira e eu só quero parar\ntanta coisa acontece e eu nem sei o que pensar\nme sinto pequeno\ncomo se não coubesse em lugar nenhum\ncomo se fosse só mais alguém\nandando sem rumo\n\nQueria achar um lugar meu\num canto onde eu pudesse ficar\nmas tudo parece tão distante\ncomo um sonho que a gente não consegue alcançar",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 1,
+                        "criterio": "Adequção ao tema",
+                        "nota": 2.5,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "A redação tangencia o tema ao abordar a questão da identidade e pertencimento, mas não cumpre as três tarefas solicitadas no enunciado.",
+                                "O eu lírico expressa uma busca por um lugar onde se sinta pertencente, como evidenciado na frase 'Queria achar um lugar meu', mas não menciona explicitamente o lugar de onde fala.",
+                                "O texto transmite a sensação de desorientação e a busca por um espaço pessoal, o que é relevante para o tema, mas não há uma relação clara entre esse lugar e a identidade do eu lírico."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para melhorar a redação, sugiro que você inclua uma descrição mais clara do lugar de onde o eu lírico fala. Por exemplo, você poderia mencionar uma cidade, um bairro ou até mesmo um espaço figurado que represente sua identidade.",
+                                "Além disso, seria interessante explorar como esse lugar impacta a identidade do eu lírico. Você poderia adicionar trechos que expliquem por que esse lugar é importante ou como ele molda a sensação de pertencimento ou não pertencimento.",
+                                "Por fim, tente declarar de forma mais explícita em que medida o eu lírico se sente pertencente ou não ao lugar mencionado, o que ajudaria a cumprir as tarefas solicitadas no enunciado."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3207,
+            "completion_tokens": 316
+        },
+        {
+            "titulo": "Sem Saber Onde Ir",
+            "texto": "Eu ando por aí\nprocuro algo que não sei o que é\nolho pra frente mas não vejo nada\nàs vezes parece que a estrada acaba\ne eu fico parado\nesperando\n\nO mundo gira e eu só quero parar\ntanta coisa acontece e eu nem sei o que pensar\nme sinto pequeno\ncomo se não coubesse em lugar nenhum\ncomo se fosse só mais alguém\nandando sem rumo\n\nQueria achar um lugar meu\num canto onde eu pudesse ficar\nmas tudo parece tão distante\ncomo um sonho que a gente não consegue alcançar",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 2,
+                        "criterio": "Adequação ao gênero",
+                        "nota": 7.5,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "O poema apresenta versos livres, o que é adequado para o gênero proposto.",
+                                "Explora os sons das palavras de forma a criar um ritmo perceptível, especialmente nas repetições de ideias como 'andar' e 'lugar'.",
+                                "Utiliza figuras de linguagem, como a comparação 'como se fosse só mais alguém', que enriquece a expressão dos sentimentos do eu lírico."
+                            ],
+                            "de_um_passo_alem": "Para alcançar uma nota ainda mais alta, você poderia trabalhar mais a musicalidade do poema. Por exemplo, ao repetir certas palavras ou sons, como em 'andar' e 'lugar', poderia criar um efeito sonoro mais forte. Além disso, incluir mais figuras de linguagem em todas as estrofes ajudaria a aprofundar a expressividade do texto. Considere, por exemplo, usar metáforas ou aliterações para intensificar a sensação de busca e solidão que você já expressou bem."
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3207,
+            "completion_tokens": 239
+        },
+        {
+            "titulo": "Sem Saber Onde Ir",
+            "texto": "Eu ando por aí\nprocuro algo que não sei o que é\nolho pra frente mas não vejo nada\nàs vezes parece que a estrada acaba\ne eu fico parado\nesperando\n\nO mundo gira e eu só quero parar\ntanta coisa acontece e eu nem sei o que pensar\nme sinto pequeno\ncomo se não coubesse em lugar nenhum\ncomo se fosse só mais alguém\nandando sem rumo\n\nQueria achar um lugar meu\num canto onde eu pudesse ficar\nmas tudo parece tão distante\ncomo um sonho que a gente não consegue alcançar",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 3,
+                        "criterio": "Coerencia",
+                        "nota": 7.5,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "A redação apresenta uma sequência lógica nas ideias, começando com a busca por algo indefinido e culminando na sensação de não pertencimento. Por exemplo, a frase 'Eu ando por aí procuro algo que não sei o que é' estabelece um tema central que é desenvolvido ao longo do texto.",
+                                "As transições entre os versos são suaves, como quando o autor passa da ideia de estar parado esperando para o desejo de encontrar um lugar, o que demonstra uma continuidade no pensamento.",
+                                "A repetição da sensação de desorientação e busca por pertencimento é coerente e reforça a mensagem do texto, como em 'me sinto pequeno' e 'como se não coubesse em lugar nenhum'."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para melhorar a coerência da redação, você poderia explorar mais a relação entre a busca por um lugar e as emoções que isso provoca. Por exemplo, adicionar uma reflexão sobre o que significa encontrar esse lugar poderia enriquecer a narrativa.",
+                                "Outra sugestão é incluir mais detalhes sobre o que você vê ao seu redor enquanto caminha, isso ajudaria a criar uma imagem mais vívida e a conectar melhor as ideias. Por exemplo, descrever o ambiente poderia dar mais profundidade à sua busca.",
+                                "Por fim, considere trabalhar com a ideia de tempo, talvez refletindo sobre como essa busca se relaciona com momentos específicos da sua vida, o que poderia trazer uma nova camada de significado ao texto."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3207,
+            "completion_tokens": 343
+        },
+        {
+            "titulo": "Sem Saber Onde Ir",
+            "texto": "Eu ando por aí\nprocuro algo que não sei o que é\nolho pra frente mas não vejo nada\nàs vezes parece que a estrada acaba\ne eu fico parado\nesperando\n\nO mundo gira e eu só quero parar\ntanta coisa acontece e eu nem sei o que pensar\nme sinto pequeno\ncomo se não coubesse em lugar nenhum\ncomo se fosse só mais alguém\nandando sem rumo\n\nQueria achar um lugar meu\num canto onde eu pudesse ficar\nmas tudo parece tão distante\ncomo um sonho que a gente não consegue alcançar",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 4,
+                        "criterio": "Coesão",
+                        "nota": 7.5,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "O texto apresenta uma boa coesão sequencial, com as ideias fluindo de forma lógica entre os versos. Por exemplo, a transição entre 'Eu ando por aí' e 'procuro algo que não sei o que é' estabelece uma continuidade na busca do eu lírico.",
+                                "A repetição da ideia de busca e solidão, como em 'me sinto pequeno' e 'como se não coubesse em lugar nenhum', reforça a coesão referencial, conectando as emoções do eu lírico ao longo do poema.",
+                                "A utilização de expressões como 'mas tudo parece tão distante' ajuda a manter a coesão lexical, ligando a ideia de busca ao sentimento de frustração."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para melhorar ainda mais a coesão do texto, você poderia explorar mais conectivos que ajudem a ligar as ideias entre os versos. Por exemplo, ao invés de 'mas tudo parece tão distante', poderia ser interessante usar 'entretanto, tudo parece tão distante', o que daria uma ênfase maior à contradição entre a busca e a realidade.",
+                                "Além disso, considere a possibilidade de incluir mais elementos que conectem as estrofes, como referências a sentimentos ou imagens que já foram mencionados anteriormente. Isso ajudaria a criar uma rede de significados mais rica e coesa ao longo do poema."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3207,
+            "completion_tokens": 329
+        },
+        {
+            "titulo": "Sem Saber Onde Ir",
+            "texto": "Eu ando por aí\nprocuro algo que não sei o que é\nolho pra frente mas não vejo nada\nàs vezes parece que a estrada acaba\ne eu fico parado\nesperando\n\nO mundo gira e eu só quero parar\ntanta coisa acontece e eu nem sei o que pensar\nme sinto pequeno\ncomo se não coubesse em lugar nenhum\ncomo se fosse só mais alguém\nandando sem rumo\n\nQueria achar um lugar meu\num canto onde eu pudesse ficar\nmas tudo parece tão distante\ncomo um sonho que a gente não consegue alcançar",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 5,
+                        "criterio": "Convenções da escrita",
+                        "nota": 7.5,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "A redação apresenta uma linguagem majoritariamente inventiva e conotativa, como pode ser observado na expressão 'o mundo gira e eu só quero parar', que traz uma forte carga emocional e uma metáfora interessante sobre a vida.",
+                                "A repetição da ideia de 'andar sem rumo' e a busca por um 'lugar meu' demonstram uma construção poética que reflete a confusão e a busca interna do eu-lírico, o que enriquece a mensagem do texto.",
+                                "As imagens criadas, como 'como um sonho que a gente não consegue alcançar', são exemplos de uma linguagem conotativa que provoca identificação e reflexão no leitor."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para aprimorar ainda mais a sua redação, sugiro que você explore mais as marcas de oralidade e informalidade. Por exemplo, você poderia incluir expressões coloquiais que transmitam a sensação de desorientação de forma mais intensa.",
+                                "Além disso, considere trabalhar com a estrutura dos versos para criar um ritmo mais fluido. A variação na extensão dos versos pode ajudar a transmitir a ideia de movimento e incerteza que você deseja expressar.",
+                                "Por fim, você poderia desenvolver um pouco mais a ideia do 'canto onde eu pudesse ficar', talvez descrevendo como seria esse lugar ou o que ele representa para você, o que poderia enriquecer ainda mais a sua mensagem."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3207,
+            "completion_tokens": 333
+        }
+    ],
+    [
+        {
+            "titulo": "Sei Lá Onde Tô",
+            "texto": "Eu ando perdido sem saber direito\nprocuro um lugar mas não sei o que é\nparece que tudo tá longe demais\ne eu nem sei como vou chegar\n\nAs estrela lá no céu tão quieta\ne eu fico pensando se elas me olham\no chão tá frio mas eu sigo andando\nmesmo sem rumo ou sem motivo\n\nO mundo é estranho cheio de coisa confusa\nàs vez parece que ninguém entende nada\neu só queria achar um canto meu\nmas parece que nem existe\n",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 0,
+                        "criterio": "Anulação",
+                        "nota": "NÃO",
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "O texto aborda a temática do 'lugar' de forma metafórica, refletindo sobre a busca por um espaço pessoal e a sensação de estar perdido, o que se relaciona com a identidade e pertencimento.",
+                                "A redação apresenta características poéticas, como rimas e ritmo, evidenciando que se trata de um poema.",
+                                "Os sentimentos de confusão e busca por um 'canto' são expressos de maneira clara, mostrando a conexão do autor com o tema proposto."
+                            ],
+                            "de_um_passo_alem": "Para aprimorar sua redação, você poderia explorar mais a ideia de 'pertencimento', talvez incluindo imagens ou experiências que representem o que esse 'canto' significa para você. Por exemplo, você poderia descrever um lugar específico que tenha um significado especial, o que tornaria a sua busca ainda mais palpável. Além disso, trabalhar na estrutura das estrofes para criar uma progressão mais clara de ideias poderia enriquecer ainda mais o seu poema."
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3195,
+            "completion_tokens": 247
+        },
+        {
+            "titulo": "Sei Lá Onde Tô",
+            "texto": "Eu ando perdido sem saber direito\nprocuro um lugar mas não sei o que é\nparece que tudo tá longe demais\ne eu nem sei como vou chegar\n\nAs estrela lá no céu tão quieta\ne eu fico pensando se elas me olham\no chão tá frio mas eu sigo andando\nmesmo sem rumo ou sem motivo\n\nO mundo é estranho cheio de coisa confusa\nàs vez parece que ninguém entende nada\neu só queria achar um canto meu\nmas parece que nem existe\n",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 1,
+                        "criterio": "Adequção ao tema",
+                        "nota": 2.5,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "A redação tangencia o tema ao abordar a sensação de estar perdido, o que pode ser interpretado como uma busca por identidade e pertencimento.",
+                                "O eu lírico expressa uma busca por um 'lugar', embora não mencione explicitamente um lugar específico, seja ele literal ou figurado.",
+                                "A ideia de que 'eu só queria achar um canto meu' sugere uma relação com a identidade, mas não é desenvolvida de forma clara."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para melhorar a redação, sugiro que você mencione um lugar específico que represente sua identidade ou que tenha significado para você. Por exemplo, você poderia descrever um local da sua infância ou um espaço que você considera seu.",
+                                "Além disso, seria interessante explorar mais a relação entre esse lugar e como ele influencia sua identidade. Como esse lugar faz você se sentir? Você se sente pertencente a ele ou distante?",
+                                "Por fim, tente declarar de forma mais clara se você se sente pertencente ou não a esse lugar, para que o leitor compreenda melhor sua perspectiva."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3195,
+            "completion_tokens": 267
+        },
+        {
+            "titulo": "Sei Lá Onde Tô",
+            "texto": "Eu ando perdido sem saber direito\nprocuro um lugar mas não sei o que é\nparece que tudo tá longe demais\ne eu nem sei como vou chegar\n\nAs estrela lá no céu tão quieta\ne eu fico pensando se elas me olham\no chão tá frio mas eu sigo andando\nmesmo sem rumo ou sem motivo\n\nO mundo é estranho cheio de coisa confusa\nàs vez parece que ninguém entende nada\neu só queria achar um canto meu\nmas parece que nem existe\n",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 2,
+                        "criterio": "Adequação ao gênero",
+                        "nota": 7.5,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "O poema apresenta versos livres, o que é adequado para o gênero.",
+                                "Há uma exploração dos sons das palavras, criando um ritmo perceptível, especialmente nas repetições e na sonoridade das palavras, como em 'andando' e 'motivo'.",
+                                "Figuras de linguagem estão presentes, como a personificação nas estrelas que 'me olham' e a metáfora do 'mundo é estranho', que enriquecem a expressão poética."
+                            ],
+                            "de_um_passo_alem": "Para aprimorar ainda mais sua redação, você poderia trabalhar mais a musicalidade do poema, utilizando repetições sonoras ou variações de tonicidade. Por exemplo, ao invés de 'mas não sei o que é', você poderia experimentar uma construção que enfatizasse a incerteza, como 'mas não sei o que pode ser'. Além disso, considere incluir mais figuras de linguagem em outras estrofes para dar mais profundidade ao seu texto, como comparações ou metáforas que ajudem a transmitir suas emoções de forma ainda mais vívida."
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3195,
+            "completion_tokens": 263
+        },
+        {
+            "titulo": "Sei Lá Onde Tô",
+            "texto": "Eu ando perdido sem saber direito\nprocuro um lugar mas não sei o que é\nparece que tudo tá longe demais\ne eu nem sei como vou chegar\n\nAs estrela lá no céu tão quieta\ne eu fico pensando se elas me olham\no chão tá frio mas eu sigo andando\nmesmo sem rumo ou sem motivo\n\nO mundo é estranho cheio de coisa confusa\nàs vez parece que ninguém entende nada\neu só queria achar um canto meu\nmas parece que nem existe\n",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 3,
+                        "criterio": "Coerencia",
+                        "nota": 7.5,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "A redação apresenta uma sequência lógica nas ideias, começando com a sensação de perda e confusão do eu lírico, que é um tema central.",
+                                "As imagens utilizadas, como 'as estrelas lá no céu tão quieta' e 'o chão tá frio', ajudam a transmitir a sensação de solidão e busca, criando uma conexão entre os sentimentos do eu lírico e o ambiente ao seu redor.",
+                                "A repetição da ideia de busca por um 'canto meu' reforça a coesão do texto, mostrando que a busca por um lugar é um tema recorrente."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para melhorar a coerência, você poderia desenvolver mais algumas ideias secundárias que se conectem diretamente à busca por esse 'canto'. Por exemplo, explorar o que esse lugar representa para você ou como você se sente em relação a essa busca.",
+                                "Além disso, a frase 'às vez parece que ninguém entende nada' poderia ser reformulada para 'às vezes parece que ninguém entende nada', corrigindo um pequeno erro de ortografia que pode impactar a fluidez do texto.",
+                                "Por fim, considere adicionar uma conclusão que amarre as ideias apresentadas, talvez refletindo sobre o que você aprendeu nessa busca ou como se sente em relação a ela."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3195,
+            "completion_tokens": 306
+        },
+        {
+            "titulo": "Sei Lá Onde Tô",
+            "texto": "Eu ando perdido sem saber direito\nprocuro um lugar mas não sei o que é\nparece que tudo tá longe demais\ne eu nem sei como vou chegar\n\nAs estrela lá no céu tão quieta\ne eu fico pensando se elas me olham\no chão tá frio mas eu sigo andando\nmesmo sem rumo ou sem motivo\n\nO mundo é estranho cheio de coisa confusa\nàs vez parece que ninguém entende nada\neu só queria achar um canto meu\nmas parece que nem existe\n",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 4,
+                        "criterio": "Coesão",
+                        "nota": 5.0,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "O texto apresenta uma estrutura que permite a compreensão das ideias, com tentativas de conexão entre os versos, como em 'procuro um lugar mas não sei o que é', onde a busca por um lugar é claramente expressa.",
+                                "A repetição da ideia de 'perda' e 'confusão' ao longo do poema ajuda a manter a coesão temática, como em 'o mundo é estranho cheio de coisa confusa'.",
+                                "Os versos se conectam de forma a criar uma narrativa que flui, como em 'as estrela lá no céu tão quieta' e 'eu fico pensando se elas me olham', onde a reflexão sobre o céu se liga à sensação de solidão."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para melhorar a coesão, você poderia trabalhar mais nas transições entre as estrofes. Por exemplo, a mudança de 'o chão tá frio mas eu sigo andando' para 'o mundo é estranho cheio de coisa confusa' poderia ser suavizada com uma frase que conectasse melhor a sensação de frieza do chão à confusão do mundo.",
+                                "Além disso, considere usar mais conectivos que ajudem a guiar o leitor, como 'por isso', 'então' ou 'assim', para que as ideias se encadeiem de forma mais fluida.",
+                                "Por fim, a repetição da palavra 'parece' em 'parece que tudo tá longe demais' e 'parece que nem existe' pode ser substituída por sinônimos ou reformulações para evitar a redundância e enriquecer o texto."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3195,
+            "completion_tokens": 369
+        },
+        {
+            "titulo": "Sei Lá Onde Tô",
+            "texto": "Eu ando perdido sem saber direito\nprocuro um lugar mas não sei o que é\nparece que tudo tá longe demais\ne eu nem sei como vou chegar\n\nAs estrela lá no céu tão quieta\ne eu fico pensando se elas me olham\no chão tá frio mas eu sigo andando\nmesmo sem rumo ou sem motivo\n\nO mundo é estranho cheio de coisa confusa\nàs vez parece que ninguém entende nada\neu só queria achar um canto meu\nmas parece que nem existe\n",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 5,
+                        "criterio": "Convenções da escrita",
+                        "nota": 7.5,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "A redação apresenta uma linguagem majoritariamente inventiva e conotativa, como pode ser observado em trechos como 'Eu ando perdido sem saber direito', que transmite uma sensação de confusão e busca.",
+                                "A utilização de expressões como 'as estrela lá no céu tão quieta' e 'o chão tá frio' trazem marcas de oralidade, tornando a leitura mais próxima e íntima.",
+                                "A repetição de 'sem' em 'sem rumo ou sem motivo' reforça a ideia de desorientação, o que é um acerto na construção do poema."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para aprimorar ainda mais sua redação, sugiro que você explore mais a conotação em algumas partes. Por exemplo, ao invés de 'parece que tudo tá longe demais', você poderia usar uma metáfora que intensifique essa sensação de distância, como 'tudo se esconde atrás de um véu distante'.",
+                                "Além disso, a estrutura do poema poderia ser mais consistente em termos de ritmo e métrica. Tente prestar atenção ao número de sílabas em cada verso para criar uma musicalidade mais fluida.",
+                                "Por fim, considere adicionar mais imagens poéticas que ajudem a transmitir suas emoções de forma mais vívida. Por exemplo, ao invés de 'o mundo é estranho cheio de coisa confusa', você poderia descrever o mundo como 'um labirinto de sombras e ecos', o que poderia enriquecer a sua expressão."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3195,
+            "completion_tokens": 351
+        }
+    ],
+    [
+        {
+            "titulo": "Onde Eu Me Encontro",
+            "texto": "Eu falo da rua onde cresci\ndas casas simples e das vozes altas\ndo cheiro de comida vindo da janela\ndo calor do asfalto que nunca esfria\nÉ ali que eu me vejo\nmesmo quando o mundo parece longe demais\n\nMinha história tá nas esquinas\nno barulho das crianças correndo\nnos passos apressados de quem tem pressa\nmas também na calma de quem senta pra esperar\nsou parte desse lugar\ne ele é parte de mim\n\nEu quero terminar de escrever esse poema falado\nPreciso chegar o número de palavras do poema\nEu gosto muito da minha família na minha casa todos \nsomos muito amigos",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 0,
+                        "criterio": "Anulação",
+                        "nota": "NÃO",
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "O texto aborda diretamente o tema 'O lugar de onde eu falo', mencionando a rua onde o autor cresceu e como esse lugar faz parte de sua identidade.",
+                                "O aluno utiliza elementos sensoriais, como 'o cheiro de comida vindo da janela' e 'o calor do asfalto', que ajudam a criar uma conexão emocional com o lugar.",
+                                "A redação apresenta uma estrutura poética, com versos que transmitem sentimentos e reflexões sobre pertencimento e identidade."
+                            ],
+                            "de_um_passo_alem": "Para aprimorar a redação, sugiro que o aluno revise a parte final, onde menciona 'Eu quero terminar de escrever esse poema falado'. Essa frase parece desconectada do restante do texto e pode ser reformulada ou eliminada para manter a fluidez do poema. Além disso, o aluno poderia explorar mais a relação com a família, que é mencionada de forma breve, para enriquecer a ideia de pertencimento."
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3228,
+            "completion_tokens": 238
+        },
+        {
+            "titulo": "Onde Eu Me Encontro",
+            "texto": "Eu falo da rua onde cresci\ndas casas simples e das vozes altas\ndo cheiro de comida vindo da janela\ndo calor do asfalto que nunca esfria\nÉ ali que eu me vejo\nmesmo quando o mundo parece longe demais\n\nMinha história tá nas esquinas\nno barulho das crianças correndo\nnos passos apressados de quem tem pressa\nmas também na calma de quem senta pra esperar\nsou parte desse lugar\ne ele é parte de mim\n\nEu quero terminar de escrever esse poema falado\nPreciso chegar o número de palavras do poema\nEu gosto muito da minha família na minha casa todos \nsomos muito amigos",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 1,
+                        "criterio": "Adequção ao tema",
+                        "nota": 7.5,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "A redação menciona o lugar de onde fala o eu lírico, que é a rua onde cresceu, evidenciado na frase 'Eu falo da rua onde cresci'.",
+                                "O texto também expressa a relação entre esse lugar e a identidade do eu lírico, como na passagem 'sou parte desse lugar e ele é parte de mim', o que demonstra um forte vínculo emocional com o ambiente.",
+                                "Além disso, o eu lírico declara em que medida se sente pertencente ao lugar, ao afirmar que 'é ali que eu me vejo', mostrando que a sua identidade está ligada ao espaço descrito."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para aprimorar a redação, sugiro que você explore mais a relação entre as memórias e a identidade, talvez incluindo mais detalhes sobre como essas experiências moldaram quem você é hoje.",
+                                "Além disso, a última parte do texto parece desconectada do tema central. Você menciona a família e a amizade, mas isso poderia ser melhor integrado ao contexto do lugar e da identidade. Por exemplo, você poderia descrever como a presença da família na sua casa influencia sua percepção do lugar.",
+                                "Por fim, atente-se à conclusão do poema. Você menciona a necessidade de atingir um número de palavras, mas isso pode ser substituído por uma reflexão final que amarre suas ideias e sentimentos sobre o lugar e sua identidade."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3228,
+            "completion_tokens": 329
+        },
+        {
+            "titulo": "Onde Eu Me Encontro",
+            "texto": "Eu falo da rua onde cresci\ndas casas simples e das vozes altas\ndo cheiro de comida vindo da janela\ndo calor do asfalto que nunca esfria\nÉ ali que eu me vejo\nmesmo quando o mundo parece longe demais\n\nMinha história tá nas esquinas\nno barulho das crianças correndo\nnos passos apressados de quem tem pressa\nmas também na calma de quem senta pra esperar\nsou parte desse lugar\ne ele é parte de mim\n\nEu quero terminar de escrever esse poema falado\nPreciso chegar o número de palavras do poema\nEu gosto muito da minha família na minha casa todos \nsomos muito amigos",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 2,
+                        "criterio": "Adequação ao gênero",
+                        "nota": 7.5,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "O poema apresenta versos livres, o que é adequado para o gênero.",
+                                "Explora os sons das palavras de forma a criar um ritmo perceptível, como em 'do calor do asfalto que nunca esfria', onde a sonoridade das palavras contribui para a musicalidade do texto.",
+                                "Utiliza figuras de linguagem, como a metáfora em 'sou parte desse lugar e ele é parte de mim', que enriquece a expressão poética."
+                            ],
+                            "de_um_passo_alem": "Para alcançar uma nota mais alta, sugiro que você trabalhe mais na exploração dos sons das palavras e na inclusão de figuras de linguagem em todas as estrofes. Por exemplo, você poderia adicionar mais metáforas ou aliterações para intensificar a musicalidade do poema. Além disso, a última linha parece um pouco desconectada do restante do texto; talvez você possa integrá-la melhor ao tema central do poema, que é a relação com o lugar onde cresceu."
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3228,
+            "completion_tokens": 247
+        },
+        {
+            "titulo": "Onde Eu Me Encontro",
+            "texto": "Eu falo da rua onde cresci\ndas casas simples e das vozes altas\ndo cheiro de comida vindo da janela\ndo calor do asfalto que nunca esfria\nÉ ali que eu me vejo\nmesmo quando o mundo parece longe demais\n\nMinha história tá nas esquinas\nno barulho das crianças correndo\nnos passos apressados de quem tem pressa\nmas também na calma de quem senta pra esperar\nsou parte desse lugar\ne ele é parte de mim\n\nEu quero terminar de escrever esse poema falado\nPreciso chegar o número de palavras do poema\nEu gosto muito da minha família na minha casa todos \nsomos muito amigos",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 3,
+                        "criterio": "Coerencia",
+                        "nota": 5.0,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "A redação apresenta uma sequência lógica nas ideias, começando pela descrição do ambiente onde o autor cresceu, o que estabelece um contexto claro.",
+                                "As imagens evocadas, como 'o cheiro de comida vindo da janela' e 'o calor do asfalto que nunca esfria', ajudam a criar uma conexão emocional com o lugar, mostrando a importância desse espaço na vida do autor.",
+                                "A transição entre a descrição do ambiente e a relação pessoal do autor com esse espaço é feita de forma fluida, como quando o autor menciona: 'sou parte desse lugar e ele é parte de mim'."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para melhorar a coerência, sugiro que você desenvolva mais a ideia de como esses elementos do ambiente influenciam sua vida e suas memórias. Por exemplo, você poderia explorar mais a relação entre as 'vozes altas' e as interações familiares.",
+                                "Além disso, a última estrofe parece um pouco desconectada do restante do poema, especialmente a parte sobre 'terminar de escrever esse poema falado' e 'o número de palavras do poema'. Tente integrar essa ideia de forma mais coesa com o tema central, talvez refletindo sobre o que significa para você completar essa obra.",
+                                "Por fim, a menção à família é importante, mas poderia ser mais bem conectada ao restante do texto, talvez incluindo como as relações familiares se entrelaçam com as memórias do lugar."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3228,
+            "completion_tokens": 343
+        },
+        {
+            "titulo": "Onde Eu Me Encontro",
+            "texto": "Eu falo da rua onde cresci\ndas casas simples e das vozes altas\ndo cheiro de comida vindo da janela\ndo calor do asfalto que nunca esfria\nÉ ali que eu me vejo\nmesmo quando o mundo parece longe demais\n\nMinha história tá nas esquinas\nno barulho das crianças correndo\nnos passos apressados de quem tem pressa\nmas também na calma de quem senta pra esperar\nsou parte desse lugar\ne ele é parte de mim\n\nEu quero terminar de escrever esse poema falado\nPreciso chegar o número de palavras do poema\nEu gosto muito da minha família na minha casa todos \nsomos muito amigos",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 4,
+                        "criterio": "Coesão",
+                        "nota": 5.0,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "O texto apresenta uma boa conexão entre as ideias, especialmente nas estrofes que falam sobre a rua e a relação do eu lírico com o lugar. Por exemplo, a frase 'É ali que eu me vejo' estabelece uma ligação clara entre o eu lírico e o ambiente descrito.",
+                                "A transição entre as estrofes é feita de maneira fluida, como em 'Minha história tá nas esquinas', que conecta a ideia anterior sobre a rua com a história pessoal do eu lírico.",
+                                "Os elementos descritivos, como 'o cheiro de comida vindo da janela' e 'o barulho das crianças correndo', ajudam a criar uma imagem coesa do ambiente, reforçando a conexão entre o eu lírico e o espaço."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para melhorar a coesão do texto, sugiro que você trabalhe na transição entre as ideias. Por exemplo, a última linha 'Eu gosto muito da minha família na minha casa todos somos muito amigos' parece um pouco desconectada do restante do poema. Você poderia tentar integrar essa ideia de forma mais fluida, talvez relacionando a família ao ambiente da rua ou às memórias que você compartilha com eles.",
+                                "Além disso, considere revisar a estrutura das frases para garantir que todas as partes do poema se conectem de maneira mais clara. Por exemplo, você pode explorar como a presença da família influencia sua visão sobre o lugar onde cresceu."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3228,
+            "completion_tokens": 341
+        },
+        {
+            "titulo": "Onde Eu Me Encontro",
+            "texto": "Eu falo da rua onde cresci\ndas casas simples e das vozes altas\ndo cheiro de comida vindo da janela\ndo calor do asfalto que nunca esfria\nÉ ali que eu me vejo\nmesmo quando o mundo parece longe demais\n\nMinha história tá nas esquinas\nno barulho das crianças correndo\nnos passos apressados de quem tem pressa\nmas também na calma de quem senta pra esperar\nsou parte desse lugar\ne ele é parte de mim\n\nEu quero terminar de escrever esse poema falado\nPreciso chegar o número de palavras do poema\nEu gosto muito da minha família na minha casa todos \nsomos muito amigos",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 5,
+                        "criterio": "Convenções da escrita",
+                        "nota": 7.5,
+                        "justificativa": {
+                            "onde_voce_esta": [
+                                "A redação apresenta uma linguagem majoritariamente inventiva e conotativa, como pode ser observado em trechos como 'do cheiro de comida vindo da janela' e 'do calor do asfalto que nunca esfria', que evocam sensações e imagens vívidas.",
+                                "Há marcas perceptíveis de oralidade, especialmente na forma como o eu lírico se expressa, como em 'sou parte desse lugar e ele é parte de mim', que traz um tom próximo e íntimo.",
+                                "A estrutura do poema, com versos curtos e diretos, contribui para a fluidez da leitura, refletindo uma linguagem informal e acessível."
+                            ],
+                            "de_um_passo_alem": [
+                                "Para aprimorar ainda mais a sua redação, sugiro que você explore mais a conotação em algumas partes. Por exemplo, em 'Eu quero terminar de escrever esse poema falado', você poderia usar uma linguagem mais poética para transmitir essa ideia, talvez substituindo 'terminar' por 'dar vida' ou 'concluir com emoção'.",
+                                "Além disso, a última linha 'Eu gosto muito da minha família na minha casa todos somos muito amigos' poderia ser reestruturada para manter a fluidez do poema. Você poderia considerar algo como 'Na minha casa, todos somos amigos, unidos em família', o que manteria o tom poético e ainda reforçaria a ideia de união.",
+                                "Por fim, atente-se ao fechamento do poema. Uma conclusão mais forte poderia deixar uma impressão duradoura no leitor, talvez refletindo sobre como esses laços familiares e memórias moldam quem você é."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3228,
+            "completion_tokens": 376
+        }
+    ]
+]

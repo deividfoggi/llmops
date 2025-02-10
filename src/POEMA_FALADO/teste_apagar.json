@@ -1,0 +1,257 @@
+[
+    [
+        {
+            "titulo": "Onde Eu Me Encontro",
+            "texto": "Onde Eu Me Encontro\nEu falo da rua onde cresci\ndas casas simples e das vozes altas\ndo cheiro de comida vindo da janela\ndo calor do asfalto que nunca esfria\nÉ ali que eu me vejo\nmesmo quando o mundo parece longe demais\nMinha história tá nas esquinas\nno barulho das crianças correndo\nnos passos apressados de quem tem pressa\nmas também na calma de quem senta pra esperar\nsou parte desse lugar\ne ele é parte de mim\nEu quero terminar de escrever esse poema falado\nPreciso chegar o número de palavras do poema\nEu gosto muito da minha família na minha casa todos\nsomos muito amigos",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 0,
+                        "criterio": "Anulação",
+                        "nota": "SIM",
+                        "justificativa": {
+                            "Onde você está": [
+                                "O texto apresenta um trecho desconectado do todo textual, especificamente na última estrofe: 'Eu quero terminar de escrever esse poema falado / Preciso chegar o número de palavras do poema / Eu gosto muito da minha família na minha casa todos / somos muito amigos.' Esse trecho não se relaciona com o tema central do poema, que é sobre o lugar de onde o eu lírico fala, e parece ser uma reflexão sobre o processo de escrita, o que não se encaixa no contexto do poema."
+                            ],
+                            "Dê um passo além": null
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3976
+        },
+        {
+            "titulo": "Onde Eu Me Encontro",
+            "texto": "Onde Eu Me Encontro\nEu falo da rua onde cresci\ndas casas simples e das vozes altas\ndo cheiro de comida vindo da janela\ndo calor do asfalto que nunca esfria\nÉ ali que eu me vejo\nmesmo quando o mundo parece longe demais\nMinha história tá nas esquinas\nno barulho das crianças correndo\nnos passos apressados de quem tem pressa\nmas também na calma de quem senta pra esperar\nsou parte desse lugar\ne ele é parte de mim\nEu quero terminar de escrever esse poema falado\nPreciso chegar o número de palavras do poema\nEu gosto muito da minha família na minha casa todos\nsomos muito amigos",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 1,
+                        "criterio": "Adequção ao tema",
+                        "nota": 1.5,
+                        "justificativa": {
+                            "Onde você está": [
+                                "O aluno menciona o lugar de onde fala, que é a rua onde cresceu, o que atende a uma das tarefas solicitadas: 'Eu falo da rua onde cresci'.",
+                                "O texto expressa a relação entre o eu lírico e o lugar, ao afirmar que 'sou parte desse lugar e ele é parte de mim', o que demonstra uma conexão com a identidade."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3976
+        },
+        {
+            "titulo": "Onde Eu Me Encontro",
+            "texto": "Onde Eu Me Encontro\nEu falo da rua onde cresci\ndas casas simples e das vozes altas\ndo cheiro de comida vindo da janela\ndo calor do asfalto que nunca esfria\nÉ ali que eu me vejo\nmesmo quando o mundo parece longe demais\nMinha história tá nas esquinas\nno barulho das crianças correndo\nnos passos apressados de quem tem pressa\nmas também na calma de quem senta pra esperar\nsou parte desse lugar\ne ele é parte de mim\nEu quero terminar de escrever esse poema falado\nPreciso chegar o número de palavras do poema\nEu gosto muito da minha família na minha casa todos\nsomos muito amigos",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 2,
+                        "criterio": "Adequação ao gênero",
+                        "nota": 1.5,
+                        "justificativa": {
+                            "Onde você está": [
+                                "O poema está escrito em versos livres, o que é adequado para o gênero poema falado.",
+                                "A exploração de rimas é perceptível, como em 'esperar' e 'escrever', que traz um leve ritmo ao texto.",
+                                "O eu lírico expressa claramente o lugar de onde fala, mencionando 'a rua onde cresci' e 'as casas simples', o que estabelece uma conexão com sua identidade."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3976
+        },
+        {
+            "titulo": "Onde Eu Me Encontro",
+            "texto": "Onde Eu Me Encontro\nEu falo da rua onde cresci\ndas casas simples e das vozes altas\ndo cheiro de comida vindo da janela\ndo calor do asfalto que nunca esfria\nÉ ali que eu me vejo\nmesmo quando o mundo parece longe demais\nMinha história tá nas esquinas\nno barulho das crianças correndo\nnos passos apressados de quem tem pressa\nmas também na calma de quem senta pra esperar\nsou parte desse lugar\ne ele é parte de mim\nEu quero terminar de escrever esse poema falado\nPreciso chegar o número de palavras do poema\nEu gosto muito da minha família na minha casa todos\nsomos muito amigos",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 3,
+                        "criterio": "Coerencia",
+                        "nota": 1.5,
+                        "justificativa": {
+                            "Onde você está": [
+                                "O poema apresenta uma progressão lógica das ideias, começando com a descrição do lugar onde o eu lírico cresceu, o que estabelece uma conexão clara com a identidade do falante. Por exemplo, 'Eu falo da rua onde cresci' inicia a reflexão sobre o espaço que moldou sua vida.",
+                                "Os versos seguintes, como 'Minha história tá nas esquinas', reforçam a ideia de pertencimento ao lugar, mostrando que as experiências vividas ali são parte da sua identidade.",
+                                "A transição entre a descrição do ambiente e as emoções do eu lírico é feita de maneira fluida, como em 'sou parte desse lugar e ele é parte de mim', o que demonstra uma boa relação entre o espaço e a identidade."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3976
+        },
+        {
+            "titulo": "Onde Eu Me Encontro",
+            "texto": "Onde Eu Me Encontro\nEu falo da rua onde cresci\ndas casas simples e das vozes altas\ndo cheiro de comida vindo da janela\ndo calor do asfalto que nunca esfria\nÉ ali que eu me vejo\nmesmo quando o mundo parece longe demais\nMinha história tá nas esquinas\nno barulho das crianças correndo\nnos passos apressados de quem tem pressa\nmas também na calma de quem senta pra esperar\nsou parte desse lugar\ne ele é parte de mim\nEu quero terminar de escrever esse poema falado\nPreciso chegar o número de palavras do poema\nEu gosto muito da minha família na minha casa todos\nsomos muito amigos",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 4,
+                        "criterio": "Coesão",
+                        "nota": 1.5,
+                        "justificativa": {
+                            "Onde você está": [
+                                "O poema apresenta um uso majoritariamente adequado de recursos coesivos. Por exemplo, a repetição da ideia de pertencimento é reforçada em 'sou parte desse lugar / e ele é parte de mim', o que cria uma conexão clara entre o eu lírico e o espaço descrito.",
+                                "A transição entre as estrofes é feita de forma fluida, como em 'Minha história tá nas esquinas / no barulho das crianças correndo', onde a ideia de história se conecta diretamente com o ambiente descrito."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3976
+        },
+        {
+            "titulo": "Onde Eu Me Encontro",
+            "texto": "Onde Eu Me Encontro\nEu falo da rua onde cresci\ndas casas simples e das vozes altas\ndo cheiro de comida vindo da janela\ndo calor do asfalto que nunca esfria\nÉ ali que eu me vejo\nmesmo quando o mundo parece longe demais\nMinha história tá nas esquinas\nno barulho das crianças correndo\nnos passos apressados de quem tem pressa\nmas também na calma de quem senta pra esperar\nsou parte desse lugar\ne ele é parte de mim\nEu quero terminar de escrever esse poema falado\nPreciso chegar o número de palavras do poema\nEu gosto muito da minha família na minha casa todos\nsomos muito amigos",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 5,
+                        "criterio": "Convenções da escrita",
+                        "nota": 1.5,
+                        "justificativa": {
+                            "Onde você está": [
+                                "O poema apresenta uma linguagem que, embora simples, é inventiva ao descrever o ambiente familiar e as memórias associadas a ele. Por exemplo, a expressão 'do cheiro de comida vindo da janela' evoca uma imagem sensorial forte e próxima da oralidade.",
+                                "Há marcas de oralidade, como 'do calor do asfalto que nunca esfria', que trazem um tom coloquial e próximo do público, adequado ao contexto de uma batalha de slam.",
+                                "A repetição de 'Eu' no início de algumas estrofes confere um ritmo que é característico da poesia falada, ajudando a enfatizar a voz do eu lírico."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 3976
+        }
+    ],
+    [
+        {
+            "titulo": "Do Chão Que Eu Piso e Das Asas Que Eu Voo",
+            "texto": "Eu falo do lugar que me fez terra vermelha e poeira no ar de onde eu vi tudo nascer as mão rachada da minha vó o cheiro forte da comida no fogão e os sonho que dormia na rede Sou desse chão que suja o pé mas às vez me faz tropeçar Minha voz vem do bairro estreito onde o quintal era apertado, mas a fé era grande Aqui a gente aprende tropeçando que cair faz parte mas nem sempre dá pra levantar Minha identidade é feita disso tudo do barro que gruda na pele e das asa que tenta voar mesmo quebrada Pertencer? Às vez nem sei se pertenço Parece que vivo fora do campo que minha história nem encaixa Mas é desse lugar que eu tiro coragem pra tentar fazer minha marca Mesmo sem ser totalmente minha a quebrada é onde eu cresci Se perguntarem de onde eu venho eu respondo: é do meio da luta onde cada passo que eu dou é um chute contra o vento Eu sou o que tento ser e o lugar de onde eu falo é o meu palco",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 0,
+                        "criterio": "Anulação",
+                        "nota": "NÃO",
+                        "justificativa": {
+                            "Onde você está": [
+                                "O texto está estruturado em versos livres, conforme solicitado.",
+                                "O eu lírico deixa claro o lugar de onde fala, mencionando 'o lugar que me fez terra vermelha e poeira no ar'.",
+                                "A relação entre o lugar e a identidade é explicitada, como quando o eu lírico diz: 'Minha identidade é feita disso tudo do barro que gruda na pele'.",
+                                "O sentimento de pertencimento é abordado, com a reflexão sobre se realmente pertence ao lugar: 'Às vez nem sei se pertenço'."
+                            ],
+                            "Dê um passo além": null
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 4057
+        },
+        {
+            "titulo": "Do Chão Que Eu Piso e Das Asas Que Eu Voo",
+            "texto": "Eu falo do lugar que me fez terra vermelha e poeira no ar de onde eu vi tudo nascer as mão rachada da minha vó o cheiro forte da comida no fogão e os sonho que dormia na rede Sou desse chão que suja o pé mas às vez me faz tropeçar Minha voz vem do bairro estreito onde o quintal era apertado, mas a fé era grande Aqui a gente aprende tropeçando que cair faz parte mas nem sempre dá pra levantar Minha identidade é feita disso tudo do barro que gruda na pele e das asa que tenta voar mesmo quebrada Pertencer? Às vez nem sei se pertenço Parece que vivo fora do campo que minha história nem encaixa Mas é desse lugar que eu tiro coragem pra tentar fazer minha marca Mesmo sem ser totalmente minha a quebrada é onde eu cresci Se perguntarem de onde eu venho eu respondo: é do meio da luta onde cada passo que eu dou é um chute contra o vento Eu sou o que tento ser e o lugar de onde eu falo é o meu palco",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 1,
+                        "criterio": "Adequção ao tema",
+                        "nota": 2.0,
+                        "justificativa": {
+                            "Onde você está": [
+                                "O texto menciona claramente o lugar de onde o eu lírico fala, que é descrito como 'terra vermelha e poeira no ar'. Isso atende à primeira tarefa solicitada no enunciado.",
+                                "A relação entre esse lugar e a identidade do eu lírico é explicitada quando ele menciona 'Minha identidade é feita disso tudo do barro que gruda na pele'. Isso mostra como o lugar influencia sua formação pessoal.",
+                                "O eu lírico declara sua sensação de pertencimento ao lugar, mesmo que com algumas dúvidas, ao afirmar 'Às vez nem sei se pertenço', mas também reconhece que é 'desse lugar que eu tiro coragem pra tentar fazer minha marca'. Isso atende à terceira tarefa do enunciado."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 4057
+        },
+        {
+            "titulo": "Do Chão Que Eu Piso e Das Asas Que Eu Voo",
+            "texto": "Eu falo do lugar que me fez terra vermelha e poeira no ar de onde eu vi tudo nascer as mão rachada da minha vó o cheiro forte da comida no fogão e os sonho que dormia na rede Sou desse chão que suja o pé mas às vez me faz tropeçar Minha voz vem do bairro estreito onde o quintal era apertado, mas a fé era grande Aqui a gente aprende tropeçando que cair faz parte mas nem sempre dá pra levantar Minha identidade é feita disso tudo do barro que gruda na pele e das asa que tenta voar mesmo quebrada Pertencer? Às vez nem sei se pertenço Parece que vivo fora do campo que minha história nem encaixa Mas é desse lugar que eu tiro coragem pra tentar fazer minha marca Mesmo sem ser totalmente minha a quebrada é onde eu cresci Se perguntarem de onde eu venho eu respondo: é do meio da luta onde cada passo que eu dou é um chute contra o vento Eu sou o que tento ser e o lugar de onde eu falo é o meu palco",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 2,
+                        "criterio": "Adequação ao gênero",
+                        "nota": 2.0,
+                        "justificativa": {
+                            "Onde você está": [
+                                "O poema está escrito em versos livres, o que é adequado para o gênero poema falado.",
+                                "O texto apresenta um ritmo perceptível, com variações de tonicidade e repetições que ajudam a construir a musicalidade, como em 'a quebrada é onde eu cresci'.",
+                                "Figuras de linguagem, como metáforas e imagens poéticas, são utilizadas de forma eficaz, como em 'do barro que gruda na pele' e 'cada passo que eu dou é um chute contra o vento', que reforçam a mensagem central sobre identidade e pertencimento."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 4057
+        },
+        {
+            "titulo": "Do Chão Que Eu Piso e Das Asas Que Eu Voo",
+            "texto": "Eu falo do lugar que me fez terra vermelha e poeira no ar de onde eu vi tudo nascer as mão rachada da minha vó o cheiro forte da comida no fogão e os sonho que dormia na rede Sou desse chão que suja o pé mas às vez me faz tropeçar Minha voz vem do bairro estreito onde o quintal era apertado, mas a fé era grande Aqui a gente aprende tropeçando que cair faz parte mas nem sempre dá pra levantar Minha identidade é feita disso tudo do barro que gruda na pele e das asa que tenta voar mesmo quebrada Pertencer? Às vez nem sei se pertenço Parece que vivo fora do campo que minha história nem encaixa Mas é desse lugar que eu tiro coragem pra tentar fazer minha marca Mesmo sem ser totalmente minha a quebrada é onde eu cresci Se perguntarem de onde eu venho eu respondo: é do meio da luta onde cada passo que eu dou é um chute contra o vento Eu sou o que tento ser e o lugar de onde eu falo é o meu palco",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 3,
+                        "criterio": "Coerencia",
+                        "nota": 1.5,
+                        "justificativa": {
+                            "Onde você está": [
+                                "O poema apresenta uma progressão lógica das ideias, começando com a descrição do lugar de origem e suas características, como 'terra vermelha e poeira no ar', que estabelece uma conexão clara com a identidade do eu lírico.",
+                                "A relação entre o lugar e a identidade é bem explorada, especialmente nas partes em que menciona 'as mão rachada da minha vó' e 'o cheiro forte da comida no fogão', que trazem um forte sentido de pertencimento e memória.",
+                                "O verso 'Minha identidade é feita disso tudo' conecta as experiências vividas ao sentido de quem o eu lírico é, reforçando a mensagem central do poema."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 4057
+        },
+        {
+            "titulo": "Do Chão Que Eu Piso e Das Asas Que Eu Voo",
+            "texto": "Eu falo do lugar que me fez terra vermelha e poeira no ar de onde eu vi tudo nascer as mão rachada da minha vó o cheiro forte da comida no fogão e os sonho que dormia na rede Sou desse chão que suja o pé mas às vez me faz tropeçar Minha voz vem do bairro estreito onde o quintal era apertado, mas a fé era grande Aqui a gente aprende tropeçando que cair faz parte mas nem sempre dá pra levantar Minha identidade é feita disso tudo do barro que gruda na pele e das asa que tenta voar mesmo quebrada Pertencer? Às vez nem sei se pertenço Parece que vivo fora do campo que minha história nem encaixa Mas é desse lugar que eu tiro coragem pra tentar fazer minha marca Mesmo sem ser totalmente minha a quebrada é onde eu cresci Se perguntarem de onde eu venho eu respondo: é do meio da luta onde cada passo que eu dou é um chute contra o vento Eu sou o que tento ser e o lugar de onde eu falo é o meu palco",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 4,
+                        "criterio": "Coesão",
+                        "nota": 1.5,
+                        "justificativa": {
+                            "Onde você está": [
+                                "O poema apresenta uma boa conexão entre as ideias, especialmente ao descrever o lugar de origem e suas implicações na identidade do eu lírico. Por exemplo, a frase 'Minha identidade é feita disso tudo do barro que gruda na pele' mostra uma relação clara entre o lugar e a formação da identidade.",
+                                "A repetição da ideia de 'tropeçar' e 'cair' ao longo do texto ajuda a reforçar a mensagem sobre os desafios enfrentados, criando uma coesão temática.",
+                                "O uso de expressões como 'é do meio da luta onde cada passo que eu dou é um chute contra o vento' conecta a luta pessoal com o lugar de origem, mostrando um encadeamento lógico entre as ideias."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 4057
+        },
+        {
+            "titulo": "Do Chão Que Eu Piso e Das Asas Que Eu Voo",
+            "texto": "Eu falo do lugar que me fez terra vermelha e poeira no ar de onde eu vi tudo nascer as mão rachada da minha vó o cheiro forte da comida no fogão e os sonho que dormia na rede Sou desse chão que suja o pé mas às vez me faz tropeçar Minha voz vem do bairro estreito onde o quintal era apertado, mas a fé era grande Aqui a gente aprende tropeçando que cair faz parte mas nem sempre dá pra levantar Minha identidade é feita disso tudo do barro que gruda na pele e das asa que tenta voar mesmo quebrada Pertencer? Às vez nem sei se pertenço Parece que vivo fora do campo que minha história nem encaixa Mas é desse lugar que eu tiro coragem pra tentar fazer minha marca Mesmo sem ser totalmente minha a quebrada é onde eu cresci Se perguntarem de onde eu venho eu respondo: é do meio da luta onde cada passo que eu dou é um chute contra o vento Eu sou o que tento ser e o lugar de onde eu falo é o meu palco",
+            "criterios": {
+                "avaliacao": [
+                    {
+                        "cd_habilidade": 5,
+                        "criterio": "Convenções da escrita",
+                        "nota": 1.5,
+                        "justificativa": {
+                            "Onde você está": [
+                                "A linguagem do poema é majoritariamente inventiva e conotativa, como pode ser visto em trechos como 'terra vermelha e poeira no ar', que evocam imagens vívidas e sensoriais.",
+                                "O uso de expressões como 'as mão rachada da minha vó' e 'o cheiro forte da comida no fogão' trazem marcas de oralidade e informalidade, características que se adequam ao contexto de uma batalha de slam.",
+                                "O eu lírico expressa sua identidade e pertencimento de forma clara, utilizando metáforas que conectam seu lugar de fala à sua experiência pessoal, como em 'Minha identidade é feita disso tudo do barro que gruda na pele'."
+                            ]
+                        }
+                    }
+                ]
+            },
+            "prompt_tokens": 4057
+        }
+    ]
+]
