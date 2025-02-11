@@ -9,7 +9,7 @@ from promptflow.connections import AzureOpenAIConnection
 from promptflow.core import (AzureOpenAIModelConfiguration, Prompty, tool)
 from flask import Flask, request, jsonify
 from OLD_ESSAY.old_essay import OldEssay
-from POEMA_FALADO.POEMA_FALADO_1EM_prompt_flow import get_response_poema_falado
+from POEMA_FALADO.POEMA_FALADO_1EM import EssayEvaluationFlow, EssayInput
 
 @tool
 def get_response(essay_request):
@@ -28,16 +28,18 @@ def get_response(essay_request):
     # }
     
     # select the case based on the essay_type property from essay_request
-    essay_type = essay_request['essay_type']
+    essay_type = essay_request[0]['genero']
 
     result = "";
 
-    if essay_type == 'poema_falado':
-        result = get_response_poema_falado(essay_request,model_config)
-    elif essay_type == 'old_essay':
+    if essay_type == 'Poema Falado (Poetry Slam)':
+        #result = get_response_poema_falado(essay_request,model_config)
+        poema_falado = EssayEvaluationFlow(model_config)
+        result = poema_falado(essay_request, "None")
+    elif essay_type == 'redacao simples':
         #calling using class based flow
         old_essay = OldEssay(model_config)
-        result = old_essay(essay_request)
+        result = old_essay(essay_request[0])
 
     return result
 

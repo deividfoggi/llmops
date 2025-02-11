@@ -1,17 +1,17 @@
 {
   "avaliacao": [
     {
-      "cd_habilidade": 0,
+      "cd_habilidade": "e",
       "criterio": "Anulação",
-      "nota": "NÃO",
+      "nota": "Anulado",
       "justificativa": {
         "onde_voce_esta": [
-          "Onde você está: \n- O texto aborda diretamente o tema 'O lugar de onde eu falo', mencionando a rua onde o autor cresceu, o que demonstra uma conexão clara com o conceito de lugar.\n- O autor fala sobre a identidade e pertencimento ao descrever as experiências e memórias ligadas a esse espaço, como 'as casas simples e das vozes altas' e 'sou parte desse lugar'.\n- A redação é apresentada na forma de um poema, com versos que expressam sentimentos e imagens relacionadas ao lugar e à identidade."
+          "Onde você está: \n- O texto apresenta uma estrutura poética interessante e um bom uso de imagens sensoriais, como 'cheiro de comida vindo da janela' e 'calor do asfalto que nunca esfria'.\n- Há uma boa evocação de memórias e sentimentos relacionados ao lugar onde o autor cresceu, o que confere um tom pessoal e nostálgico ao texto."
         ],
         "de_um_passo_alem": [
-          "Dê um passo além: \n- O poema poderia ser mais coeso se o autor evitasse a repetição de ideias, como a menção à família, que aparece de forma abrupta no final.\n- Sugiro que o autor revise a estrutura do poema para garantir que todas as partes se conectem de maneira fluida, evitando trechos que pareçam desconectados.\n- Uma revisão na contagem de palavras e na conclusão do poema poderia ajudar a dar um fechamento mais satisfatório ao texto."
+          "Dê um passo além: \n- O texto precisa ser concluído de forma mais coesa. A última parte parece desconexa e inacabada, o que prejudica a fluidez e a compreensão geral.\n- Revisar a estrutura e a continuidade do poema pode ajudar a manter o leitor engajado do início ao fim."
         ],
-        "mensagem": "Parabéns pelo seu poema! Você conseguiu expressar bem a relação com o seu lugar e identidade. Continue escrevendo e explorando suas ideias!"
+        "mensagem": "Você tem um talento especial para criar imagens vívidas e transmitir emoções através de suas palavras. Continue escrevendo e aprimorando suas habilidades. Estou ansioso para ler mais dos seus trabalhos!"
       }
     }
   ]

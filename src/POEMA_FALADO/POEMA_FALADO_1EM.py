@@ -20,19 +20,26 @@ from promptflow.evals.evaluators import (
 
 start_time = time.time()
 load_dotenv(find_dotenv())
-#BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-BASE_DIR = r'C:\Users\guilherme.julio\PYTHON_VSCODE\essay_evaluation_flow\1EM_1BIM_POEMA_FALADO'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+#BASE_DIR = r'C:\Users\guilherme.julio\PYTHON_VSCODE\essay_evaluation_flow\1EM_1BIM_POEMA_FALADO'
 SAVE_NAME = 'teste_unico.json'
 PROMPT_NAME = 'poema_falado.prompty'
 READ_NAME = 'anulacao_poema_falado_1bim_1EM.json'
 
 
-config_4o_mini = AzureOpenAIModelConfiguration(
-    azure_deployment="seducsp",#"playground-4o",
-    azure_endpoint=os.getenv("GPT_4OMINI_URL"),
-    api_version="2024-08-01-preview",#"2024-02-15-preview", 
-    api_key=os.getenv("AZURE_OPENAI_API_KEY")
-)
+# config_4o_mini = AzureOpenAIModelConfiguration(
+#     azure_deployment="seducsp",#"playground-4o",
+#     azure_endpoint=os.getenv("GPT_4OMINI_URL"),
+#     api_version="2024-08-01-preview",#"2024-02-15-preview", 
+#     api_key=os.getenv("AZURE_OPENAI_API_KEY")
+# )
+
+# config_4o_mini = AzureOpenAIModelConfiguration(
+#     azure_deployment=os.getenv("AZURE_OPENAI_CHAT_DEPLOYMENT", ""),
+#     api_version=os.getenv("AZURE_OPENAI_API_VERSION", ""),
+#     azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT", ""),
+#     api_key=os.getenv("AZURE_OPENAI_API_KEY", ""),
+# )
 
 
 EssayInput = TypedDict(
@@ -189,9 +196,10 @@ class EssayEvaluationFlow:
 
     def __call__(
             self,
-            essay_input: List[EssayInput], #entrada de redações
+            #essay_input: List[EssayInput], #entrada de redações
+            essay_input: EssayInput, #entrada da redação
             criteria_list: Criterios #lista de critérios
-        ) -> List[EssayOutput]:
+        ) -> EssayOutput:
         """
 
         """
@@ -212,14 +220,16 @@ class EssayEvaluationFlow:
         self,
         essay_input: EssayInput,
         criteria: str
-    ) -> List[EssayOutput]:
+    ) -> EssayOutput:
         """
         """
         #carrega o arquivo prompty
-        prompty = Prompty.load(
-            source=f"{BASE_DIR}/{PROMPT_NAME}",
-            model={"configuration": self.model_config},
-        )
+        #prompty = Prompty.load(
+        #    source=f"{BASE_DIR}/{PROMPT_NAME}",
+        #    model={"configuration": self.model_config},
+        #)
+
+        prompty = Prompty.load(source=f"{BASE_DIR}/{PROMPT_NAME}")
         
         #chamada que envia os parâmetros para o prompty
         output = prompty(
@@ -266,13 +276,17 @@ class EssayEvaluationFlow:
         #Chamada enviado parâmetros do dicionário prompt para o arquivo prompty
         #Armazendando a chamada no dicionário "resposta"
         #resposta = prompty(**prompt)
+
+        #declarada aqui pois houve uma condição onde a linha 289 nunca foi executada
+        justificativa_anulacao = ''
         
         #Precisamos criar a regra de susbstituição da justificativa quando a redação for anulada p/ todos os critérios
         #Excluindo justificativa "de_um_passo_alem" para notas >= 1.5
         for avaliacao in output.get("avaliacao", []):
             cd_habilidade = avaliacao.get("cd_habilidade", 0)
             nota = avaliacao.get("nota", "0")
-            global justificativa_anulacao
+            # comentando pois houve uma condição nos testes onde esse trecho nunca foi executado
+            #global justificativa_anulacao
             anulacao_frase = "Redação anulada. "
             comment_1 = "Onde você está: "
             comment_2 = "Dê um passo além: "
@@ -423,7 +437,7 @@ class EssayEvaluationFlow:
         }
 
 
-def evaluate_essay(config: AzureOpenAIModelConfiguration, criteria_list: Criterios) -> List[EssayOutput]:
+def evaluate_essay(config: AzureOpenAIModelConfiguration, criteria_list: Criterios) -> EssayOutput:
     """
     Evaluates a list of essays based on a list of criteria.
 
@@ -507,6 +521,13 @@ if __name__ == "__main__":
     #print(inference_4o)
     #with open('teste_3B_4o_.json', 'w+', encoding='utf-8') as file:
     #    file.write(json.dumps(inference_4o, ensure_ascii=False))
+
+    config_4o_mini = AzureOpenAIModelConfiguration(
+       azure_deployment=os.getenv("AZURE_OPENAI_CHAT_DEPLOYMENT", ""),
+       api_version=os.getenv("AZURE_OPENAI_API_VERSION", ""),
+       azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT", ""),
+       api_key=os.getenv("AZURE_OPENAI_API_KEY", ""),
+    )
 
     inference_mini = evaluate_essay(config_4o_mini, criterium)
     #print(inference_mini)
