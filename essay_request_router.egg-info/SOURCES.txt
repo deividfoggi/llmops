@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+essay_request_router.egg-info/PKG-INFO
+essay_request_router.egg-info/SOURCES.txt
+essay_request_router.egg-info/dependency_links.txt
+essay_request_router.egg-info/top_level.txt
+src/__init__.py
+src/essay_request_router.py
+src/poema_falado/POEMA_FALADO_1EM.py
+src/poema_falado/__init__.py
+src/simple_essay/__init__.py
+src/simple_essay/simple_essay.py
+tests/__init__.py
+tests/test_essay_request_router.py
