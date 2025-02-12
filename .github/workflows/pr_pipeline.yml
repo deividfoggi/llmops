@@ -35,7 +35,7 @@ jobs:
         if: always()
 
   static-code-analysis:
-    # needs: unit-testing
+    needs: unit-testing
     runs-on: ubuntu-latest
     environment: dev
     steps:
@@ -50,8 +50,7 @@ jobs:
     if: ${{ github.repository != 'Azure/llmops-project-template' }}
     runs-on: ubuntu-latest
     environment: dev
-    #needs: [unit-testing, static-code-analysis]
-    needs: [static-code-analysis]
+    needs: [unit-testing, static-code-analysis]
     outputs:
       AZURE_RESOURCE_GROUP: ${{ steps.config-env.outputs.AZURE_RESOURCE_GROUP }}
       AZURE_OPENAI_NAME: ${{ steps.config-env.outputs.AZURE_OPENAI_NAME }}
