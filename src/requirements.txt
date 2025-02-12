@@ -1,4 +1,4 @@
-azure-ai-ml
+azure-ai-ml==1.25.0
 mlflow==2.20.1
 azure-monitor-opentelemetry==1.6.4
 azure-ai-resources

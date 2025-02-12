@@ -16,12 +16,12 @@ class OldEssay:
         prompty_path = os.path.join(current_dir, "old_essay.prompty")
         prompty = Prompty.load(source=prompty_path)
         result = prompty(
-            language=essay_request["language"],
-            genre=essay_request["genre"],
-            statement=essay_request["statement"],
-            title=essay_request["title"],
-            essay=essay_request["essay"],
-            support_text=essay_request["support_text"],
+            lingua=essay_request["lingua"],
+            genero=essay_request["genero"],
+            tema=essay_request["proposta"],
+            titulo=essay_request["tema"],
+            redacao=essay_request["redacao"],
+            material_apoio=essay_request["material_apoio"],
             skills=essay_request["skills"]
         )
         return result
