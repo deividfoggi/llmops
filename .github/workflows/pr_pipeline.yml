@@ -22,6 +22,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest
           pip install -r requirements.txt
+          pip install 0 -e .
       - name: Test with pytest
         env:
           PYTHONPATH: src
