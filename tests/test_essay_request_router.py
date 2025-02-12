@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch, MagicMock
-from essay_request_router import get_response, app
+from src.essay_request_router import get_response, app
 import json
 
 class TestEssayRequestRouter(unittest.TestCase):
