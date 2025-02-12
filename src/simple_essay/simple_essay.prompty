@@ -14,26 +14,26 @@ model:
     response_format:
         type: json_object
 inputs:
-  lingua:
+  language:
     type: string
     is_chat_input: false
-  genero:
-    type: string
-    default: ""
-    is_chat_input: false
-  proposta:
+  genre:
     type: string
     default: ""
     is_chat_input: false
-  titulo:
+  statement:
     type: string
     default: ""
     is_chat_input: false
-  redacao:
+  title:
     type: string
     default: ""
     is_chat_input: false
-  material_apoio:
+  essay:
+    type: string
+    default: ""
+    is_chat_input: false
+  support_text:
     type: string
     default: ""
     is_chat_input: false

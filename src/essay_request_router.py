@@ -8,8 +8,8 @@ from promptflow.tools.common import init_azure_openai_client  # Import init_azur
 from promptflow.connections import AzureOpenAIConnection  # Import AzureOpenAIConnection from promptflow.connections
 from promptflow.core import (AzureOpenAIModelConfiguration, Prompty, tool)  # Import AzureOpenAIModelConfiguration, Prompty, and tool from promptflow.core
 from flask import Flask, request, jsonify  # Import Flask, request, and jsonify from the flask module
-from OLD_ESSAY.old_essay import OldEssay  # Import OldEssay from OLD_ESSAY.old_essay
-from POEMA_FALADO.POEMA_FALADO_1EM import EssayEvaluationFlow, EssayInput  # Import EssayEvaluationFlow and EssayInput from POEMA_FALADO.POEMA_FALADO_1EM
+from simple_essay.simple_essay import OldEssay  # Import OldEssay from simple_essay.simple_essay
+from poema_falado.POEMA_FALADO_1EM import EssayEvaluationFlow, EssayInput  # Import EssayEvaluationFlow and EssayInput from POEMA_FALADO.POEMA_FALADO_1EM
 
 @tool  # Decorator to define a tool
 def get_response(essay_request):  # Define the get_response function
@@ -29,18 +29,18 @@ def get_response(essay_request):  # Define the get_response function
     # }
     
     # in this example we select the case based on the essay_type property from essay_request
-    essay_type = essay_request[0]['genero']  # Get the essay type from the essay_request
+    essay_type = essay_request[0]['type']  # Get the essay type from the essay_request
 
     result = ""  # Initialize the result variable
 
-    if essay_type == 'Poema Falado (Poetry Slam)':  # Check if the essay type is 'Poema Falado (Poetry Slam)'
+    if essay_type == 'poema_falado':  # Check if the essay type is 'Poema Falado (Poetry Slam)'
         #result = get_response_poema_falado(essay_request,model_config)
         poema_falado = EssayEvaluationFlow(model_config)  # Create an instance of EssayEvaluationFlow
         result = poema_falado(essay_request, "None")  # Get the result from the EssayEvaluationFlow instance
-    elif essay_type == 'redacao simples':  # Check if the essay type is 'redacao simples'
+    elif essay_type == 'redacao_simples':  # Check if the essay type is 'redacao simples'
         #calling using class based flow
-        old_essay = OldEssay(model_config)  # Create an instance of OldEssay
-        result = old_essay(essay_request[0])  # Get the result from the OldEssay instance
+        simple_essay = OldEssay(model_config)  # Create an instance of OldEssay
+        result = simple_essay(essay_request[0])  # Get the result from the OldEssay instance
 
     return result  # Return the result
 
