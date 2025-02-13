@@ -1,17 +1,17 @@
 {
   "avaliacao": [
     {
-      "cd_habilidade": "e",
+      "cd_habilidade": "Anulação",
       "criterio": "Anulação",
       "nota": "Anulado",
       "justificativa": {
         "onde_voce_esta": [
-          "Onde você está: \n- O texto apresenta uma estrutura poética e uma linguagem que foge ao padrão esperado para uma redação dissertativa-argumentativa.\n- A redação não segue a estrutura tradicional de introdução, desenvolvimento e conclusão, o que é essencial para o formato exigido."
+          "Onde você está: \n- The title 'Nature's Beauty' aligns with the theme of the text.\n- The sentence 'Nature is beautiful and serene.' is grammatically correct and conveys a clear idea."
         ],
         "de_um_passo_alem": [
-          "Dê um passo além: \n- Para uma redação dissertativa-argumentativa, é importante seguir uma estrutura clara com introdução, desenvolvimento e conclusão.\n- Utilize uma linguagem mais formal e objetiva, apresentando argumentos e exemplos que sustentem seu ponto de vista."
+          "Dê um passo além: \n- Expand on the idea presented in the text by providing examples or descriptions of nature's beauty and serenity.\n- Develop the text further by including additional sentences or paragraphs to create a more comprehensive and engaging narrative."
         ],
-        "mensagem": "Você tem uma habilidade notável para a escrita poética e expressiva. Tente adaptar essa criatividade para o formato de redação exigido, mantendo a clareza e a objetividade. Continue praticando e você certamente alcançará ótimos resultados!"
+        "mensagem": "Your writing shows potential, and the idea you presented is clear and meaningful. Keep working on expanding your thoughts and adding more details to create a richer and more complete text. Great start!"
       }
     }
   ]
