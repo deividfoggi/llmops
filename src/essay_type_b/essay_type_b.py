@@ -3,17 +3,17 @@ from promptflow.core import Prompty
 from promptflow.core import AzureOpenAIModelConfiguration
 
 # class based flow: https://microsoft.github.io/promptflow/how-to-guides/develop-a-flex-flow/class-based-flow.html
-class OldEssay:
+class EssayTypeB:
     def __init__(self, model_config: AzureOpenAIModelConfiguration):
         self.current_dir = os.path.dirname(os.path.abspath(__file__))
-        self.prompty_path = os.path.join(self.current_dir, "simple_essay.prompty")
+        self.prompty_path = os.path.join(self.current_dir, "essay_type_b.prompty")
         self.model_config = model_config
 
     def __call__(self, essay_request: str) -> str:
         print("inputs:", essay_request)
         print("getting result...")
         current_dir = os.path.dirname(os.path.abspath(__file__))
-        prompty_path = os.path.join(current_dir, "simple_essay.prompty")
+        prompty_path = os.path.join(current_dir, "essay_type_b.prompty")
         prompty = Prompty.load(source=prompty_path)
         result = prompty(
             language=essay_request["language"],
@@ -22,6 +22,6 @@ class OldEssay:
             title=essay_request["title"],
             essay=essay_request["essay"],
             support_material=essay_request["support_text"],
-            skills=essay_request["skills"]
+            skill=essay_request["skill"]
         )
         return result
