@@ -1,4 +1,5 @@
 # Multiple prompt deployment in one endpoint using prompt-flow
+This repository was inspired by the Microsoft's promptflow official repo: https://github.com/microsoft/promptflow/tree/main/examples
 
 ## Overview
 
