@@ -9,7 +9,7 @@ from promptflow.connections import AzureOpenAIConnection  # Import AzureOpenAICo
 from promptflow.core import (AzureOpenAIModelConfiguration, Prompty, tool)  # Import AzureOpenAIModelConfiguration, Prompty, and tool from promptflow.core
 from flask import Flask, request, jsonify  # Import Flask, request, and jsonify from the flask module
 from simple_essay.simple_essay import OldEssay  # Import OldEssay from simple_essay.simple_essay
-from poema_falado.POEMA_FALADO_1EM import EssayEvaluationFlow, EssayInput  # Import EssayEvaluationFlow and EssayInput from POEMA_FALADO.POEMA_FALADO_1EM
+from poema_falado.POEMA_FALADO_1EM import EssayEvaluationFlow, EssayInput  # Import EssayEvaluationFlow and EssayInput from poema_falado.POEMA_FALADO_1EM
 
 @tool  # Decorator to define a tool
 def get_response(essay_request):  # Define the get_response function
