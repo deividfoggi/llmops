@@ -159,14 +159,6 @@ runs:
           export $VAR=$VALUE            
         done 
 
-        # Load sample data if needed
-
-        indexSampleData=$([ -z "$LOAD_AZURE_SEARCH_SAMPLE_DATA" ] || [ "$LOAD_AZURE_SEARCH_SAMPLE_DATA" == "true" ] && echo true || echo false)
-        if [ $indexSampleData = "true" ]; then
-          echo "🔶 | Running post-provisioning script to populate sample data." 
-          ./infra/hooks/postprovision.sh 
-        fi
-
 outputs:
   AZURE_CONTAINER_REGISTRY_NAME:
     description: 'Azure Container Registry Name'
