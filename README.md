@@ -1,6 +1,8 @@
 # Multiple prompt deployment in one endpoint using prompt-flow
 This repository was inspired by the Microsoft's prompt flow official repo: https://github.com/microsoft/promptflow/tree/main/examples
 
+[![PR Pipeline](https://github.com/deividfoggi/llmops/actions/workflows/pr_pipeline.yml/badge.svg)](https://github.com/deividfoggi/llmops/actions/workflows/pr_pipeline.yml)
+
 ## Overview
 
 This project is designed to evaluate essays using AI models using prompt flow and a code-first approach. It supports multiple essay types and provides a structured way to assess various skills such as grammar, cohesion, orthography, and relevance to the theme.
