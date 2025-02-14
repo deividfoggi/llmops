@@ -82,9 +82,13 @@ jobs:
   
   push-to-registry:
     runs-on: ubuntu-latest
-    needs: [code-standard-check]   
+    needs: [code-standard-check, build-image]   
     environment: dev 
     steps:
+    - name: Login to Azure CLI
+      uses: azure/login@v2
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }} 
     - name: Register Image
       env:
         AZURE_CONTAINER_REGISTRY_NAME: ${{vars.AZURE_CONTAINER_REGISTRY_NAME}}
