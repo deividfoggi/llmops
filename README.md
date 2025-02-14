@@ -1,66 +1,46 @@
-# RAG with Azure AI Studio and Promptflow
+# Multiple prompt deployment in one endpoint using prompt-flow
 
-This repository has been initialized with the RAG with Azure AI Studio and Promptflow project template repository, which has been thoughtfully crafted with a template for Retrieval Augmented Generation using Promptflow. This template is designed to help you get started quickly and efficiently. The template project is a simplified version of the [Contoso Chat](https://github.com/Azure-Samples/contoso-chat/) sample project. 
+## Overview
 
-## Architecture Overview
+This project is designed to evaluate essays using AI models using prompt flow and a code-first approach. It supports multiple essay types and provides a structured way to assess various skills such as grammar, cohesion, orthography, and relevance to the theme.
 
-The following diagram provides an overview of the solution's architecture:
+## How essay type is selected
 
-![Architecture](media/architecture.png)
+You send essay_type as a property in the json payload. This demo is ready to handle essay_type_a and essay_type_b. The first will assess multiple skills and the later one specific skill + returning each possible error and a respective suggestion.
 
-## Project Resources
+## How to play with the prompts?
 
-To deliver the solution effectively, a set of Azure resources is necessary. The following table outlines the required resources and their specific purposes for the project.
+As specified by prompt flow, you evolve play with each prompt directly in the .prompty files. This demo implements prompt as class, so if you want to play with the app logics, go for the py files that define the prompt class.
 
-| **Resource Name**       | **Purpose**                                                         |
-|-------------------------|---------------------------------------------------------------------|
-| **AI Hub**              | Centralized platform for managing AI solutions.                     |
-| **AI Project**          | Organize and manage Gen AI projects.                                |
-| **OpenAI Service**      | Access and use OpenAI models for various AI applications.           |
-| **Application Insights**| Monitor application performance and detect issues.                  |
-| **Log Analytics**       | Collect, analyze, and visualize logs from your resources.           |
-| **Container Registry**  | Store and manage container images for orchestration deployments.    |
-| **Key Vault**           | Manage and protect sensitive information such as keys and secrets.  |
-| **Storage Account**     | Store and manage data and files used by your application.           |
-| **AI Search**           | Implement Vector Search for the RAG retrieval step.                 |
-| **App Service**         | Host and manage your app.                                           |
-| **App Service Plan**    | Provide the resources that your App Service app needs to run.       |
+## Resources needed in Azure
 
-> **Note:** The **Premium V3 SKU** is required for the Azure App Service Plan to ensure the necessary performance and scalability for the application.
+To run this project, you will need the following resources in Azure:
 
+- Azure OpenAI Service
+- Azure Container Registry
+- Azure Container Apps
+- Azure Key Vault (optional, for storing secrets)
 
-The following deployments will be created in the Azure OpenAI Service:
+## How to prepare environment variables in GitHub
 
-| Deployment Name          | Model Name             | Model Version | SKU Name | Capacity |
-|--------------------------|------------------------|---------------|----------|----------|
-| gpt-35-turbo             | gpt-35-turbo           | 0613          | Standard | 20       |
-| gpt-4                    | gpt-4o                 | 2024-05-13    | Standard | 20       |
-| text-embedding-ada-002   | text-embedding-ada-002 | 2             | Standard | 20       |
+To set up the necessary environment variables in GitHub, follow these steps:
 
-To find out if you have a quota for the model in a specific region, refer to the [check your quota](docs/check_your_quota.md) documentation. For more details about the deployments, you can refer to the [ai.yaml](infra/ai.yaml) file. It is important to check if there is a quota for these models in the desired region.
+1. Go to your GitHub repository.
+2. Click on `Settings` > Environment > Add at least dev environment
+3. Navigate to dev environment and create the following variables:
+4. Click on `New repository secret` and add the following secrets:
 
-## Infrastructure as Code
+   - `AZURE_SUBSCRIPTION_ID`: Your Azure subscription ID.
+   - `AZURE_LOCATION`: The location of your Azure resources.
+   - `AZURE_RESOURCE_GROUP`: The resource group name.
+   - `AZURE_CONTAINER_REGISTRY_NAME`: The name of your Azure Container Registry.
+   - `AZURE_CONTAINER_REPOSITORY_NAME`: The name of your container repository.
 
-To facilitate the creation of resources, this repository includes Bicep templates (IaaC) to create the following project resources. More details can be found in the [main.bicep](infra/main.bicep) file.
+## How to use sample files in each essay_type directory to demo it
 
-## Contributing
+Each essay type directory contains sample files that you can use to demo the project. Follow these steps:
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
-
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
-## Trademarks
-
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+1. Navigate to the `src` directory.
+2. Choose the essay type you want to demo (`essay_type_a` or `essay_type_b`).
+3. Each essay type directory contains a `.prompty` file and a sample JSON file (e.g., `essay_type_a.sample.json`).
+4. Send the content of this file as the body in a POST request against the ingress endpoint of your container app using thunder client, postman or something else.
