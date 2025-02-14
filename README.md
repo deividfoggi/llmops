@@ -25,10 +25,16 @@ To run this project, you will need the following resources in Azure:
 
 To set up the necessary environment variables in GitHub, follow these steps:
 
-1. Go to your GitHub repository.
-2. Click on `Settings` > Environment > Add at least dev environment
-3. Navigate to dev environment and create the following variables:
-4. Click on `New repository secret` and add the following secrets:
+1. Using azure cli, create a service principal to enable the pipeline to push the docker image to the azure container registry:
+
+    ```shell
+    az ad sp create-for-rbac --name <service-principal-name> --role Contributor --scopes /subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.ContainerRegistry/registries/<registry-name> --sdk-auth
+    ```
+2. Copy the ouput.
+2. Go to your GitHub repository.
+3. Click on `Settings` > Environment > Add at least dev environment
+4. Navigate to dev environment and create the following variables:
+5. Click on `New repository secret` and add the following secrets:
 
    - `AZURE_SUBSCRIPTION_ID`: Your Azure subscription ID.
    - `AZURE_LOCATION`: The location of your Azure resources.
@@ -36,7 +42,9 @@ To set up the necessary environment variables in GitHub, follow these steps:
    - `AZURE_CONTAINER_REGISTRY_NAME`: The name of your Azure Container Registry.
    - `AZURE_CONTAINER_REPOSITORY_NAME`: The name of your container repository.
 
-## How to use sample files in each essay_type directory to demo it
+6. Add an environment secret named AZURE_CREDENTIALS and paste the content copied in step 2.
+
+## How to use sample files in each essay_type directory
 
 Each essay type directory contains sample files that you can use to demo the project. Follow these steps:
 
