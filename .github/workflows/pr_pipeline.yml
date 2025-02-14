@@ -42,7 +42,7 @@ jobs:
 
       - name: Create flow docker files
         run: |
-              # reference: https://github.com/microsoft/promptflow/tree/main/examples/tutorials/flow-deploy/azure-app-service
+              # reference: https://github.com/microsoft/promptflow/tree/main/examples/tutorials/flow-deploy/docker
               pf flow build --source src --output dist --format docker       
 
       - name: Upload build artifacts
